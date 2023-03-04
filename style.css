@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #212121;
+	color: #fff;
+}
+
+.title {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 70px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.watchlist {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.watchlist h2 {
+	margin-top: 0;
+}
+
+.watchlist ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.watchlist li {
+	padding: 10px;
+	border: 1px solid #454545;
+	background-color: #373737;
+	transition: background-color 0.3s;
+}
+
+.watchlist li:hover {
+	background-color: #0a0a0a;
+}
+
+.watchlist h2 {
+	text-align: center;
+}
+
+
+.politicians {
+	flex: 6;
+	margin:0 auto
+}
+
+.politicians h2 {
+	margin-top: 0;
+	text-align: center;
+}
+
+form {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input[type="text"] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 60%;
+	background-color: #333;
+	color: #fff;
+}
+
+form button {
+	padding: 10px;
+	background-color: #d83a3a;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: backround-color ;
+}
+
+form button:hover {
+	background-color: #373737;
+	transition: 0.3s;
+}
+
+.politician-images {
+	display: flex;
+	flex-wrap: wrap;
+	width: 940px;
+  margin-top:90px;
+  margin:auto
+ 
+}
+
+.politician-images img {
+	margin: 10px;
+	max-width: 150px;
+	height: auto;
+	margin: auto;
+	
+}
