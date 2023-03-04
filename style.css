@@ -50,6 +50,7 @@ body {
 
 
 .politicians {
+	
 	flex: 6;
 	margin:0 auto
 }
@@ -103,9 +104,13 @@ form button:hover {
 }
 
 .politician-images img {
+	transition: transform .2s;
 	margin: 10px;
 	max-width: 150px;
 	height: auto;
 	margin: auto;
 	
+}
+.politician-images img:hover{
+    transform:scale(2.5);
 }
