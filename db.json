@@ -1,0 +1,120 @@
+{
+    "senators": [
+      {
+        "id": 1,
+        "name": "Cory Booker",
+        "image": "https://townhallseattle.org/wp-content/uploads/2016/03/THUMB_Cory-Booker.jpg",
+        "stocks": [
+          {
+            "name": "Apple Inc.",
+            "symbol": "AAPL"
+          },
+          {
+            "name": "Alphabet Inc.",
+            "symbol": "GOOG"
+          },
+          {
+            "name": "Meta Platforms, Inc.",
+            "symbol": "META"
+          },
+          {
+            "name": "JPMorgan Chase & Co.",
+            "symbol": "JPM"
+          },
+          {
+            "name": "Nike, Inc.",
+            "symbol": "NKE"
+          }
+        ],
+        "investments": 4567666,
+        "party": "Democrat"
+      },
+      {
+        "id": 2,
+        "name": "Susan Collins",
+        "image": "https://www.husson.edu/news/2021/09/Susan-Collins-sm.jpg",
+        "stocks": [
+          {
+            "name": "The Proctor & Gamble Company",
+            "symbol": "PG"
+          },
+          {
+            "name": "Abbott Laboratories",
+            "symbol": "ABT"
+          },
+          {
+            "name": "Morgan Stanley",
+            "symbol": "MS"
+          },
+          {
+            "name": "Salesforce.com, Inc.",
+            "symbol": "CRM"
+          },
+          {
+            "name": "Eli Lilly and Company",
+            "symbol": "LLY"
+          }
+        ],
+        "investments": 2666543,
+        "party": "Republican"
+      },
+      {
+        "id": 3,
+        "name": "Ted Cruz",
+        "image": "https://www.liberty.edu/news/wp-content/uploads/sites/137/2019/12/Senator-Ted-Cruz-OfficialPortrait.jpg",
+        "stocks": [
+          {
+            "name": "Walmart Inc.",
+            "symbol": "WMT"
+          },
+          {
+            "name": "Exxon Mobil Corporation",
+            "symbol": "XOM"
+          },
+          {
+            "name": "Bank of America Corporation",
+            "symbol": "BAC"
+          },
+          {
+            "name": "Merck & Co., Inc.",
+            "symbol": "MRK"
+          },
+          {
+            "name": "Chevron Corporation",
+            "symbol": "CVX"
+          }
+        ],
+        "investments": 103666984,
+        "party": "Republican"
+      },
+      {
+        "id": 4,
+        "name": "Lindsey Graham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Lindsey_Graham%2C_Official_Portrait_2006.jpg/606px-Lindsey_Graham%2C_Official_Portrait_2006.jpg",
+        "stocks": [
+          {
+            "name": "Oracle Corporation",
+            "symbol": "ORCL"
+          },
+          {
+            "name": "Cisco Systems, Inc.",
+            "symbol": "CSCO"
+          },
+          {
+            "name": "McDonald’s Corporation",
+            "symbol": "MCD"
+          },
+          {
+            "name": "Walmart Inc.",
+            "symbol": "WMT"
+          },
+          {
+            "name": "Philip Morris International Inc.",
+            "symbol": "PM"
+          }
+        ],
+        "investments": 773
+      }
+    ]
+  }
+  
