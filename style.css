@@ -8,10 +8,15 @@ body {
 }
 
 .title {
-	text-align: center;
+	text-align: left;
+	padding-left: 65px;
 	margin-top: 20px;
 	font-size: 70px;
 }
+
+	.poliTitle {
+		font-size: 50px;
+	}
 
 .container {
 	display: flex;
@@ -99,18 +104,23 @@ form button:hover {
 	flex-wrap: wrap;
 	width: 940px;
   margin-top:90px;
-  margin:auto
+  margin:auto;
+  padding-left: 125px;
+  
  
 }
 
 .politician-images img {
 	transition: transform .2s;
 	margin: 10px;
-	max-width: 150px;
-	height: auto;
-	margin: auto;
+	
+	height: 150px;
+	width: 150px;
+	position: right;
+	border-radius: 30px;
 	
 }
 .politician-images img:hover{
-    transform:scale(2.5);
+    transform:scale(1.2);
 }
+
