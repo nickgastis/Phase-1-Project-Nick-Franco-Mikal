@@ -178,3 +178,26 @@ span:nth-child(n) {
   .detail-container h3 {
 	text-align: center;
   }
+
+  .stockUl {
+	text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+
+  .stockUl li {
+	padding: 5px;
+	border: 1px solid #0000005f;
+	background-color: #356b8c71;
+	transition: background-color 0.3s;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	transition: 0.3s;
+  }
+
+  .stockUl li:hover {
+	  background-color: #077fb3a7;
+	transition: 0.3;
+  }
