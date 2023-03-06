@@ -3,14 +3,25 @@
 }
 
 body {
-	background-image: url('https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2342&q=80');
+	background-image:
+    linear-gradient(to bottom, rgba(27, 33, 37, 0.896), rgba(0, 146, 190, 0.355)),
+    url('https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475664_1280.jpg');
+	width: 80%;
+    height: 1000px;
+    background-size: cover;
+    color: white;
+	background-attachment: fixed;
+    
 	
 }
 
 
+
 h2, li, h1, p, label, h3 {
 	color: #ccc;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 
 
@@ -18,7 +29,7 @@ h2, li, h1, p, label, h3 {
 	text-align: left;
 	padding-left: 65px;
 	margin-top: 20px;
-	font-size: 70px;
+	font-size: 60px;
 }
 
 	.poliTitle {
@@ -31,8 +42,9 @@ h2, li, h1, p, label, h3 {
 }
 
 .watchlist {
-	flex: 1;
-	margin-right: 20px;
+	flex: 1.5;
+	margin-left: 20px;
+	margin-top: 21px;
 }
 
 .watchlist h2 {
@@ -47,13 +59,13 @@ h2, li, h1, p, label, h3 {
 
 .watchlist li {
 	padding: 10px;
-	border: 1px solid #454545;
-	background-color: #373737;
+	border: 1px solid #0000005f;
+	background-color: #356b8c71;
 	transition: background-color 0.3s;
 }
 
 .watchlist li:hover {
-	background-color: #0a0a0a;
+	background-color: #077fb3a7;
 }
 
 .watchlist h2 {
@@ -93,7 +105,7 @@ form input[type="text"] {
 
 form button {
 	padding: 10px;
-	background-color: #d83a3a;
+	background-color: #356b8c71;
 	color: #fff;
 	border: none;
 	border-radius: 4px;
@@ -102,8 +114,17 @@ form button {
 }
 
 form button:hover {
-	background-color: #373737;
+	background-color: #077fb3a7;
 	transition: 0.3s;
+}
+
+span:nth-child(n) {
+	height: 200px;
+	width: 200px;	
+	background-color: #22272f;
+	border-radius: 10px;
+	margin: 15px;
+	box-shadow: 6px 6px 2px 2px rgb(0, 22, 29);
 }
 
 .politician-images {
@@ -119,22 +140,41 @@ form button:hover {
 
 .politician-images img {
 	transition: transform .2s;
-	margin: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 100px;
+	border-radius: 100px;
+	margin-top: 10px;
 	
-	height: 150px;
-	width: 150px;
-	position: right;
-	border-radius: 30px;
 	
 }
 .politician-images img:hover{
-    transform:scale(1.2);
+    transform:scale(1.125);
+	transition: 0.6s;
 }
 
 .detail-container {
 	height: 500px;
 	width: 500px;
-	background-image: linear-gradient(rgb(27, 27, 27), rgba(122, 120, 120, 0.419));
+	background-color: #22272f;
 	margin: auto;
+	box-shadow: 6px 6px 2px 2px rgb(0, 22, 29);
+	border-radius: 25px;
+  }
 
+  .detail-container img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height:200px;
+	border-radius: 200px;
+	margin-top: 20px;
+	padding-top: 10px;
+  }
+
+  .detail-container h3 {
+	text-align: center;
   }
