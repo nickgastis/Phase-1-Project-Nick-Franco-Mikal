@@ -3,8 +3,15 @@
 }
 
 body {
-	background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/273/297/original/digital-animation-of-business-stock-market-price-chart-free-video.jpg');
-	
+	background-image:
+    linear-gradient(to bottom, rgba(27, 33, 37, 0.896), rgba(0, 146, 190, 0.355)),
+    url('https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475664_1280.jpg');
+	width: 80%;
+    height: 1000px;
+    background-size: cover;
+    color: white;
+	background-attachment: fixed;
+    
 	
 }
 
@@ -35,8 +42,9 @@ h2, li, h1, p, label, h3 {
 }
 
 .watchlist {
-	flex: 1;
-	margin-right: 20px;
+	flex: 1.5;
+	margin-left: 20px;
+	margin-top: 21px;
 }
 
 .watchlist h2 {
@@ -51,13 +59,13 @@ h2, li, h1, p, label, h3 {
 
 .watchlist li {
 	padding: 10px;
-	border: 1px solid #454545;
-	background-color: #373737;
+	border: 1px solid #0000005f;
+	background-color: #356b8c71;
 	transition: background-color 0.3s;
 }
 
 .watchlist li:hover {
-	background-color: #0a0a0a;
+	background-color: #077fb3a7;
 }
 
 .watchlist h2 {
@@ -97,7 +105,7 @@ form input[type="text"] {
 
 form button {
 	padding: 10px;
-	background-color: #d83a3a;
+	background-color: #356b8c71;
 	color: #fff;
 	border: none;
 	border-radius: 4px;
@@ -106,14 +114,14 @@ form button {
 }
 
 form button:hover {
-	background-color: #373737;
+	background-color: #077fb3a7;
 	transition: 0.3s;
 }
 
 span:nth-child(n) {
 	height: 200px;
 	width: 200px;	
-	background-color: #171717;
+	background-color: #00335392;
 	border-radius: 15px;
 	margin: 15px;
 }
@@ -131,12 +139,14 @@ span:nth-child(n) {
 
 .politician-images img {
 	transition: transform .2s;
-	margin: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 100px;
+	border-radius: 100px;
+	margin-top: 10px;
 	
-	height: 150px;
-	width: 150px;
-	position: right;
-	border-radius: 30px;
 	
 }
 .politician-images img:hover{
@@ -147,7 +157,10 @@ span:nth-child(n) {
 .detail-container {
 	height: 500px;
 	width: 500px;
-	background-image: linear-gradient(rgb(27, 27, 27), rgba(122, 120, 120, 0.419));
+	background-image: linear-gradient(rgba(10, 90, 161, 0.766), rgba(0, 25, 42, 0.65));
 	margin: auto;
+	box-shadow: 10px 10px 10px 7px rgb(0, 22, 29);
+	border-radius: 25px;
+	
 
   }
