@@ -121,9 +121,10 @@ form button:hover {
 span:nth-child(n) {
 	height: 200px;
 	width: 200px;	
-	background-color: #00335392;
-	border-radius: 15px;
+	background-color: #22272f;
+	border-radius: 10px;
 	margin: 15px;
+	box-shadow: 6px 6px 2px 2px rgb(0, 22, 29);
 }
 
 .politician-images {
@@ -157,10 +158,23 @@ span:nth-child(n) {
 .detail-container {
 	height: 500px;
 	width: 500px;
-	background-image: linear-gradient(rgba(10, 90, 161, 0.766), rgba(0, 25, 42, 0.65));
+	background-color: #22272f;
 	margin: auto;
-	box-shadow: 10px 10px 10px 7px rgb(0, 22, 29);
+	box-shadow: 6px 6px 2px 2px rgb(0, 22, 29);
 	border-radius: 25px;
-	
+  }
 
+  .detail-container img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height:200px;
+	border-radius: 200px;
+	margin-top: 20px;
+	padding-top: 10px;
+  }
+
+  .detail-container h3 {
+	text-align: center;
   }
