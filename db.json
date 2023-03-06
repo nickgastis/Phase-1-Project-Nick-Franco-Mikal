@@ -7,23 +7,28 @@
         "stocks": [
           {
             "name": "Apple Inc.",
-            "symbol": "AAPL"
+            "symbol": "AAPL",
+            "date": "September 2021"
           },
           {
             "name": "Alphabet Inc.",
-            "symbol": "GOOG"
+            "symbol": "GOOG",
+            "date": "February 2022"
           },
           {
             "name": "Meta Platforms, Inc.",
-            "symbol": "META"
+            "symbol": "META",
+            "date": "January 2020"
           },
           {
             "name": "JPMorgan Chase & Co.",
-            "symbol": "JPM"
+            "symbol": "JPM",
+            "date": "September 2020"
           },
           {
             "name": "Nike, Inc.",
-            "symbol": "NKE"
+            "symbol": "NKE",
+            "date": "May 2018"
           }
         ],
         "investments": 4567666,
@@ -36,23 +41,29 @@
         "stocks": [
           {
             "name": "The Proctor & Gamble Company",
-            "symbol": "PG"
+            "symbol": "PG",
+            "date": "May 2018"
           },
           {
             "name": "Abbott Laboratories",
-            "symbol": "ABT"
+            "symbol": "ABT",
+            "date": "July 2016"
+
           },
           {
             "name": "Morgan Stanley",
-            "symbol": "MS"
+            "symbol": "MS",
+            "date": "August 2020"
           },
           {
             "name": "Salesforce.com, Inc.",
-            "symbol": "CRM"
+            "symbol": "CRM",
+            "date": "September 2021"
           },
           {
             "name": "Eli Lilly and Company",
-            "symbol": "LLY"
+            "symbol": "LLY",
+            "date": "October 2022"
           }
         ],
         "investments": 2666543,
@@ -65,23 +76,28 @@
         "stocks": [
           {
             "name": "Walmart Inc.",
-            "symbol": "WMT"
+            "symbol": "WMT",
+            "date": "July 2016"
           },
           {
             "name": "Exxon Mobil Corporation",
-            "symbol": "XOM"
+            "symbol": "XOM",
+            "date": "January 2015"
           },
           {
             "name": "Bank of America Corporation",
-            "symbol": "BAC"
+            "symbol": "BAC",
+            "date": "May 2018"
           },
           {
             "name": "Merck & Co., Inc.",
-            "symbol": "MRK"
+            "symbol": "MRK",
+            "date": "September 2020"
           },
           {
             "name": "Chevron Corporation",
-            "symbol": "CVX"
+            "symbol": "CVX",
+            "date": "January 2015"
           }
         ],
         "investments": 103666984,
@@ -94,27 +110,238 @@
         "stocks": [
           {
             "name": "Oracle Corporation",
-            "symbol": "ORCL"
+            "symbol": "ORCL",
+            "date": "September 2021"
           },
           {
             "name": "Cisco Systems, Inc.",
-            "symbol": "CSCO"
+            "symbol": "CSCO",
+            "date": "January 2020"
           },
           {
             "name": "McDonald/'s Corporation",
-            "symbol": "MCD"
+            "symbol": "MCD",
+            "date": "May 2018"
           },
           {
             "name": "Walmart Inc.",
-            "symbol": "WMT"
+            "symbol": "WMT",
+            "date": "September 2020"
           },
           {
             "name": "Philip Morris International Inc.",
-            "symbol": "PM"
+            "symbol": "PM",
+            "date": "July 2016"
           }
         ],
-        "investments": 773
+        "investments": 773438,
+        "party": "Republican"
+      },
+      {
+        "id": 5,
+        "name": "Lisa Murkowski",
+        "image": "https://www.congress.gov/img/member/m001153_200.jpg",
+        "stocks": [
+          {
+            "name": "Philip Morris International Inc.",
+            "symbol": "PM",
+            "date": "September 2021"
+          },
+          {
+            "name": "Alphabet Inc.",
+            "symbol": "GOOG",
+            "date": "February 2022"
+          },
+          {
+            "name": "Meta Platforms, Inc.",
+            "symbol": "META",
+            "date": "January 2020"
+          },
+          {
+            "name": "Exxon Mobil Corporation",
+            "symbol": "XOM",
+            "date": "September 2020"
+          },
+          {
+            "name": "Walmart Inc.",
+            "symbol": "WMT",
+            "date": "May 2018"
+          }
+        ],
+        "investments": 4670900,
+        "party": "Republican"
+      },
+      {
+        "id": 6,
+        "name": "Mike Crapo",
+        "image": "https://www.crapo.senate.gov/imo/media/image/Risch.jpeg",
+        "stocks": [
+          {
+            "name": "Oracle Corporation",
+            "symbol": "ORCL",
+            "date": "September 2021"
+          },
+          {
+            "name": "Cisco Systems, Inc.",
+            "symbol": "CSCO",
+            "date": "February 2022"
+          },
+          {
+            "name": "Meta Platforms, Inc.",
+            "symbol": "META",
+            "date": "January 2020"
+          },
+          {
+            "name": "JPMorgan Chase & Co.",
+            "symbol": "JPM",
+            "date": "September 2020"
+          },
+          {
+            "name": "Salesforce.com, Inc.",
+            "symbol": "CRM",
+            "date": "May 2018"
+          }
+        ],
+        "investments": 5638901,
+        "party": "Republican"
+      },
+      {
+        "id": 7,
+        "name": "Dianne Feinstein",
+        "image": "https://www.senate.gov/artandhistory/history/resources/graphic/xlarge/dianne_feinstein.jpg",
+        "stocks": [
+          {
+            "name": "Apple Inc.",
+            "symbol": "AAPL",
+            "date": "September 2021"
+          },
+          {
+            "name": "The Proctor & Gamble Company",
+            "symbol": "PG",
+            "date": "February 2022"
+          },
+          {
+            "name": "Meta Platforms, Inc.",
+            "symbol": "META",
+            "date": "January 2020"
+          },
+          {
+            "name": "Alphabet Inc.",
+            "symbol": "GOOG",
+            "date": "September 2020"
+          },
+          {
+            "name": "Nike, Inc.",
+            "symbol": "NKE",
+            "date": "May 2018"
+          }
+        ],
+        "investments": 2456980,
+        "party": "Democrat"
+      },
+      {
+        "id": 8,
+        "name": "Raphael Warnock",
+        "image": "https://utsnyc.edu/wp-content/uploads/cropped-warnock.jpg",
+        "stocks": [
+          {
+            "name": "Apple Inc.",
+            "symbol": "AAPL",
+            "date": "September 2021"
+          },
+          {
+            "name": "Alphabet Inc.",
+            "symbol": "GOOG",
+            "date": "February 2022"
+          },
+          {
+            "name": "Meta Platforms, Inc.",
+            "symbol": "META",
+            "date": "January 2020"
+          },
+          {
+            "name": "JPMorgan Chase & Co.",
+            "symbol": "JPM",
+            "date": "September 2020"
+          },
+          {
+            "name": "Nike, Inc.",
+            "symbol": "NKE",
+            "date": "May 2018"
+          }
+        ],
+        "investments": 985092,
+        "party": "Democrat"
+      },
+      {
+        "id": 9,
+        "name": "Rand Paul",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Rand_Paul%2C_official_portrait%2C_112th_Congress_alternate.jpg/379px-Rand_Paul%2C_official_portrait%2C_112th_Congress_alternate.jpg",
+        "stocks": [
+          {
+            "name": "Morgan Stanley",
+            "symbol": "MS",
+            "date": "September 2021"
+          },
+          {
+            "name": "Merck & Co., Inc.",
+            "symbol": "MRK",
+            "date": "February 2022"
+          },
+          {
+            "name": "Eli Lilly and Company",
+            "symbol": "LLY",
+            "date": "January 2020"
+          },
+          {
+            "name": "JPMorgan Chase & Co.",
+            "symbol": "JPM",
+            "date": "September 2020"
+          },
+          {
+            "name": "Nike, Inc.",
+            "symbol": "NKE",
+            "date": "May 2018"
+          }
+        ],
+        "investments": 3752510,
+        "party": "Republican"
+      },
+      {
+        "id": 10,
+        "name": "Elizabeth Warren",
+        "image": "https://commencement.morgan.edu/wp-content/uploads/2018/12/spkr-warren.jpg",
+        "stocks": [
+          {
+            "name": "Apple Inc.",
+            "symbol": "AAPL",
+            "date": "September 2021"
+          },
+          {
+            "name": "Alphabet Inc.",
+            "symbol": "GOOG",
+            "date": "February 2022"
+          },
+          {
+            "name": "Meta Platforms, Inc.",
+            "symbol": "META",
+            "date": "January 2020"
+          },
+          {
+            "name": "JPMorgan Chase & Co.",
+            "symbol": "JPM",
+            "date": "September 2020"
+          },
+          {
+            "name": "Nike, Inc.",
+            "symbol": "NKE",
+            "date": "May 2018"
+          }
+        ],
+        "investments": 698346,
+        "party": "Democrat"
       }
+      
     ]
   }
   
