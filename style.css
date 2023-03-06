@@ -3,9 +3,16 @@
 }
 
 body {
-	background-color: #212121;
-	color: #fff;
+	background-image: url('https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2342&q=80');
+	
 }
+
+
+h2, li, h1, p, label, h3 {
+	color: #ccc;
+}
+
+
 
 .title {
 	text-align: left;
@@ -124,3 +131,10 @@ form button:hover {
     transform:scale(1.2);
 }
 
+.detail-container {
+	height: 500px;
+	width: 500px;
+	background-image: linear-gradient(rgb(27, 27, 27), rgba(122, 120, 120, 0.419));
+	margin: auto;
+
+  }
