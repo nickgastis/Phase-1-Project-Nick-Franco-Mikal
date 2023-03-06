@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded",fetchStocks)
 
 function fetchStocks(){
-    fetch("http://localhost:3000/senators")
+    fetch("http://localhost:3000/senators/?_limit=6")
     .then(res => res.json())
     .then(data => data.forEach(senator => addSenators(senator)))
 }
