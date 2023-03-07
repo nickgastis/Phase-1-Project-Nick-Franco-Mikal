@@ -1,657 +1,662 @@
 {
-    "senators": [
-      {
-        "id": 1,
-        "name": "Cory Booker",
-        "image": "https://townhallseattle.org/wp-content/uploads/2016/03/THUMB_Cory-Booker.jpg",
-        "stocks": [
-          {
-            "name": "Apple Inc.",
-            "symbol": "AAPL",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Alphabet Inc.",
-            "symbol": "GOOG",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Meta Platforms, Inc.",
-            "symbol": "META",
-            "date": "January 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "JPMorgan Chase & Co.",
-            "symbol": "JPM",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Nike, Inc.",
-            "symbol": "NKE",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 4567666,
-        "party": "Democrat"
-      },
-      {
-        "id": 2,
-        "name": "Susan Collins",
-        "image": "https://www.husson.edu/news/2021/09/Susan-Collins-sm.jpg",
-        "stocks": [
-          {
-            "name": "The Proctor & Gamble Company",
-            "symbol": "PG",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Abbott Laboratories",
-            "symbol": "ABT",
-            "date": "July 2016",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-
-          },
-          {
-            "name": "Morgan Stanley",
-            "symbol": "MS",
-            "date": "August 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Salesforce.com, Inc.",
-            "symbol": "CRM",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Eli Lilly and Company",
-            "symbol": "LLY",
-            "date": "October 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 2666543,
-        "party": "Republican"
-      },
-      {
-        "id": 3,
-        "name": "Ted Cruz",
-        "image": "https://www.liberty.edu/news/wp-content/uploads/sites/137/2019/12/Senator-Ted-Cruz-OfficialPortrait.jpg",
-        "stocks": [
-          {
-            "name": "Walmart Inc.",
-            "symbol": "WMT",
-            "date": "July 2016",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Exxon Mobil Corporation",
-            "symbol": "XOM",
-            "date": "January 2015",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Bank of America Corporation",
-            "symbol": "BAC",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Merck & Co., Inc.",
-            "symbol": "MRK",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Chevron Corporation",
-            "symbol": "CVX",
-            "date": "January 2015",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 103666984,
-        "party": "Republican"
-      },
-      {
-        "id": 4,
-        "name": "Lindsey Graham",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Lindsey_Graham%2C_Official_Portrait_2006.jpg/606px-Lindsey_Graham%2C_Official_Portrait_2006.jpg",
-        "stocks": [
-          {
-            "name": "Oracle Corporation",
-            "symbol": "ORCL",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Cisco Systems, Inc.",
-            "symbol": "CSCO",
-            "date": "January 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "McDonald/'s Corporation",
-            "symbol": "MCD",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Walmart Inc.",
-            "symbol": "WMT",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Philip Morris International Inc.",
-            "symbol": "PM",
-            "date": "July 2016",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 773438,
-        "party": "Republican"
-      },
-      {
-        "id": 5,
-        "name": "Lisa Murkowski",
-        "image": "https://www.congress.gov/img/member/m001153_200.jpg",
-        "stocks": [
-          {
-            "name": "Philip Morris International Inc.",
-            "symbol": "PM",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Alphabet Inc.",
-            "symbol": "GOOG",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Meta Platforms, Inc.",
-            "symbol": "META",
-            "date": "January 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Exxon Mobil Corporation",
-            "symbol": "XOM",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Walmart Inc.",
-            "symbol": "WMT",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 4670900,
-        "party": "Republican"
-      },
-      {
-        "id": 6,
-        "name": "Mike Crapo",
-        "image": "https://www.crapo.senate.gov/imo/media/image/Risch.jpeg",
-        "stocks": [
-          {
-            "name": "Oracle Corporation",
-            "symbol": "ORCL",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Cisco Systems, Inc.",
-            "symbol": "CSCO",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Meta Platforms, Inc.",
-            "symbol": "META",
-            "date": "January 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "JPMorgan Chase & Co.",
-            "symbol": "JPM",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Salesforce.com, Inc.",
-            "symbol": "CRM",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 5638901,
-        "party": "Republican"
-      },
-      {
-        "id": 7,
-        "name": "Dianne Feinstein",
-        "image": "https://www.senate.gov/artandhistory/history/resources/graphic/xlarge/dianne_feinstein.jpg",
-        "stocks": [
-          {
-            "name": "Apple Inc.",
-            "symbol": "AAPL",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "The Proctor & Gamble Company",
-            "symbol": "PG",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Meta Platforms, Inc.",
-            "symbol": "META",
-            "date": "January 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Alphabet Inc.",
-            "symbol": "GOOG",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Nike, Inc.",
-            "symbol": "NKE",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 2456980,
-        "party": "Democrat"
-      },
-      {
-        "id": 8,
-        "name": "Raphael Warnock",
-        "image": "https://utsnyc.edu/wp-content/uploads/cropped-warnock.jpg",
-        "stocks": [
-          {
-            "name": "Apple Inc.",
-            "symbol": "AAPL",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Alphabet Inc.",
-            "symbol": "GOOG",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Meta Platforms, Inc.",
-            "symbol": "META",
-            "date": "January 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "JPMorgan Chase & Co.",
-            "symbol": "JPM",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Nike, Inc.",
-            "symbol": "NKE",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 985092,
-        "party": "Democrat"
-      },
-      {
-        "id": 9,
-        "name": "Rand Paul",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Rand_Paul%2C_official_portrait%2C_112th_Congress_alternate.jpg/379px-Rand_Paul%2C_official_portrait%2C_112th_Congress_alternate.jpg",
-        "stocks": [
-          {
-            "name": "Morgan Stanley",
-            "symbol": "MS",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Merck & Co., Inc.",
-            "symbol": "MRK",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Eli Lilly and Company",
-            "symbol": "LLY",
-            "date": "January 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "JPMorgan Chase & Co.",
-            "symbol": "JPM",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Nike, Inc.",
-            "symbol": "NKE",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 3752510,
-        "party": "Republican"
-      },
-      {
-        "id": 10,
-        "name": "Elizabeth Warren",
-        "image": "https://commencement.morgan.edu/wp-content/uploads/2018/12/spkr-warren.jpg",
-        "stocks": [
-          {
-            "name": "Apple Inc.",
-            "symbol": "AAPL",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Alphabet Inc.",
-            "symbol": "GOOG",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Meta Platforms, Inc.",
-            "symbol": "META",
-            "date": "January 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "JPMorgan Chase & Co.",
-            "symbol": "JPM",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Nike, Inc.",
-            "symbol": "NKE",
-            "date": "May 2018",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 698346,
-        "party": "Democrat"
-      },
-      {
-        "id": 11,
-        "name": "Kirsten Gillibrand",
-        "image": "https://suffolkcountydems.com/sites/default/files/styles/scale_280/public/images/photos_candidates/220px-kirsten_gillibrand_2006_official_photo_cropped.jpg?itok=jY6IoU8h",
-        "stocks": [
-          {
-            "name": "Alphabet Inc.",
-            "symbol": "GOOG",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Merck & Co., Inc.",
-            "symbol": "MRK",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Meta Platforms, Inc.",
-            "symbol": "META",
-            "date": "January 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "JPMorgan Chase & Co.",
-            "symbol": "JPM",
-            "date": "September 2020",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Oracle Corporation",
-            "symbol": "ORCL",
-            "date": "May 2016",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 75849,
-        "party": "Democrat"
-      },
-      {
-        "id": 12,
-        "name": "Jeff Merkley",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Merkley_official_photo.jpg/200px-Merkley_official_photo.jpg",
-        "stocks": [
-          {
-            "name": "Walmart Inc.",
-            "symbol": "WMT",
-            "date": "September 2021",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Merck & Co., Inc.",
-            "symbol": "MRK",
-            "date": "February 2022",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Eli Lilly and Company",
-            "symbol": "LLY",
-            "date": "January 2017",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Bank of America Corporation",
-            "symbol": "BAC",
-            "date": "September 2017",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          },
-          {
-            "name": "Nike, Inc.",
-            "symbol": "NKE",
-            "date": "May 2010",
-            "sharePrice": "$154",
-            "sharesOwned": "2,000",
-            "amountInvested": "$308,000",
-            "stockImage": ""
-          }
-        ],
-        "investments": 45396,
-        "party": "Democrat"
-      }
-    ],
-    "watchlist": [
-
-    ]
-  }
-  
+  "senators": [
+    {
+      "id": 1,
+      "name": "Cory Booker",
+      "image": "https://townhallseattle.org/wp-content/uploads/2016/03/THUMB_Cory-Booker.jpg",
+      "stocks": [
+        {
+          "name": "Apple Inc.",
+          "symbol": "AAPL",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbol": "GOOG",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbol": "META",
+          "date": "January 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "JPMorgan Chase & Co.",
+          "symbol": "JPM",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Nike, Inc.",
+          "symbol": "NKE",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 4567666,
+      "party": "Democrat"
+    },
+    {
+      "id": 2,
+      "name": "Susan Collins",
+      "image": "https://www.husson.edu/news/2021/09/Susan-Collins-sm.jpg",
+      "stocks": [
+        {
+          "name": "The Proctor & Gamble Company",
+          "symbol": "PG",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Abbott Laboratories",
+          "symbol": "ABT",
+          "date": "July 2016",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Morgan Stanley",
+          "symbol": "MS",
+          "date": "August 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Salesforce.com, Inc.",
+          "symbol": "CRM",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Eli Lilly and Company",
+          "symbol": "LLY",
+          "date": "October 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 2666543,
+      "party": "Republican"
+    },
+    {
+      "id": 3,
+      "name": "Ted Cruz",
+      "image": "https://www.liberty.edu/news/wp-content/uploads/sites/137/2019/12/Senator-Ted-Cruz-OfficialPortrait.jpg",
+      "stocks": [
+        {
+          "name": "Walmart Inc.",
+          "symbol": "WMT",
+          "date": "July 2016",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Exxon Mobil Corporation",
+          "symbol": "XOM",
+          "date": "January 2015",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Bank of America Corporation",
+          "symbol": "BAC",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Merck & Co., Inc.",
+          "symbol": "MRK",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Chevron Corporation",
+          "symbol": "CVX",
+          "date": "January 2015",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 103666984,
+      "party": "Republican"
+    },
+    {
+      "id": 4,
+      "name": "Lindsey Graham",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Lindsey_Graham%2C_Official_Portrait_2006.jpg/606px-Lindsey_Graham%2C_Official_Portrait_2006.jpg",
+      "stocks": [
+        {
+          "name": "Oracle Corporation",
+          "symbol": "ORCL",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Cisco Systems, Inc.",
+          "symbol": "CSCO",
+          "date": "January 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "McDonald/'s Corporation",
+          "symbol": "MCD",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Walmart Inc.",
+          "symbol": "WMT",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Philip Morris International Inc.",
+          "symbol": "PM",
+          "date": "July 2016",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 773438,
+      "party": "Republican"
+    },
+    {
+      "id": 5,
+      "name": "Lisa Murkowski",
+      "image": "https://www.congress.gov/img/member/m001153_200.jpg",
+      "stocks": [
+        {
+          "name": "Philip Morris International Inc.",
+          "symbol": "PM",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbol": "GOOG",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbol": "META",
+          "date": "January 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Exxon Mobil Corporation",
+          "symbol": "XOM",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Walmart Inc.",
+          "symbol": "WMT",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 4670900,
+      "party": "Republican"
+    },
+    {
+      "id": 6,
+      "name": "Mike Crapo",
+      "image": "https://www.crapo.senate.gov/imo/media/image/Risch.jpeg",
+      "stocks": [
+        {
+          "name": "Oracle Corporation",
+          "symbol": "ORCL",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Cisco Systems, Inc.",
+          "symbol": "CSCO",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbol": "META",
+          "date": "January 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "JPMorgan Chase & Co.",
+          "symbol": "JPM",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Salesforce.com, Inc.",
+          "symbol": "CRM",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 5638901,
+      "party": "Republican"
+    },
+    {
+      "id": 7,
+      "name": "Dianne Feinstein",
+      "image": "https://www.senate.gov/artandhistory/history/resources/graphic/xlarge/dianne_feinstein.jpg",
+      "stocks": [
+        {
+          "name": "Apple Inc.",
+          "symbol": "AAPL",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "The Proctor & Gamble Company",
+          "symbol": "PG",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbol": "META",
+          "date": "January 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbol": "GOOG",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Nike, Inc.",
+          "symbol": "NKE",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 2456980,
+      "party": "Democrat"
+    },
+    {
+      "id": 8,
+      "name": "Raphael Warnock",
+      "image": "https://utsnyc.edu/wp-content/uploads/cropped-warnock.jpg",
+      "stocks": [
+        {
+          "name": "Apple Inc.",
+          "symbol": "AAPL",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbol": "GOOG",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbol": "META",
+          "date": "January 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "JPMorgan Chase & Co.",
+          "symbol": "JPM",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Nike, Inc.",
+          "symbol": "NKE",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 985092,
+      "party": "Democrat"
+    },
+    {
+      "id": 9,
+      "name": "Rand Paul",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Rand_Paul%2C_official_portrait%2C_112th_Congress_alternate.jpg/379px-Rand_Paul%2C_official_portrait%2C_112th_Congress_alternate.jpg",
+      "stocks": [
+        {
+          "name": "Morgan Stanley",
+          "symbol": "MS",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Merck & Co., Inc.",
+          "symbol": "MRK",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Eli Lilly and Company",
+          "symbol": "LLY",
+          "date": "January 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "JPMorgan Chase & Co.",
+          "symbol": "JPM",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Nike, Inc.",
+          "symbol": "NKE",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 3752510,
+      "party": "Republican"
+    },
+    {
+      "id": 10,
+      "name": "Elizabeth Warren",
+      "image": "https://commencement.morgan.edu/wp-content/uploads/2018/12/spkr-warren.jpg",
+      "stocks": [
+        {
+          "name": "Apple Inc.",
+          "symbol": "AAPL",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbol": "GOOG",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbol": "META",
+          "date": "January 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "JPMorgan Chase & Co.",
+          "symbol": "JPM",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Nike, Inc.",
+          "symbol": "NKE",
+          "date": "May 2018",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 698346,
+      "party": "Democrat"
+    },
+    {
+      "id": 11,
+      "name": "Kirsten Gillibrand",
+      "image": "https://suffolkcountydems.com/sites/default/files/styles/scale_280/public/images/photos_candidates/220px-kirsten_gillibrand_2006_official_photo_cropped.jpg?itok=jY6IoU8h",
+      "stocks": [
+        {
+          "name": "Alphabet Inc.",
+          "symbol": "GOOG",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Merck & Co., Inc.",
+          "symbol": "MRK",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbol": "META",
+          "date": "January 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "JPMorgan Chase & Co.",
+          "symbol": "JPM",
+          "date": "September 2020",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Oracle Corporation",
+          "symbol": "ORCL",
+          "date": "May 2016",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 75849,
+      "party": "Democrat"
+    },
+    {
+      "id": 12,
+      "name": "Jeff Merkley",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Merkley_official_photo.jpg/200px-Merkley_official_photo.jpg",
+      "stocks": [
+        {
+          "name": "Walmart Inc.",
+          "symbol": "WMT",
+          "date": "September 2021",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Merck & Co., Inc.",
+          "symbol": "MRK",
+          "date": "February 2022",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Eli Lilly and Company",
+          "symbol": "LLY",
+          "date": "January 2017",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Bank of America Corporation",
+          "symbol": "BAC",
+          "date": "September 2017",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        },
+        {
+          "name": "Nike, Inc.",
+          "symbol": "NKE",
+          "date": "May 2010",
+          "sharePrice": "$154",
+          "sharesOwned": "2,000",
+          "amountInvested": "$308,000",
+          "stockImage": ""
+        }
+      ],
+      "investments": 45396,
+      "party": "Democrat"
+    }
+  ],
+  "watchlist": [
+    {
+      "name": "Apple Inc. : AAPL",
+      "id": 1
+    },
+    {
+      "name": "Alphabet Inc. : GOOG",
+      "id": 2
+    }
+  ]
+}

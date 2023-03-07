@@ -1,12 +1,21 @@
 
 
-document.addEventListener("DOMContentLoaded",fetchStocks)
+document.addEventListener("DOMContentLoaded", () => {
+    fetchStocks()
+    populateWatchlist()
+})
 
-function fetchStocks(){
+function fetchStocks() {
     fetch("http://localhost:3000/senators/?_limit=6")
     .then(res => res.json())
-    .then(data => data.forEach(senator => addSenators(senator)))
+    .then(data => {
+        data.forEach(senator => {
+            addSenators(senator)
+            
+        });
+    })
 }
+
 
 
 function addSenators(senator){
@@ -129,9 +138,67 @@ function addStockContainer(stock) {
         watchlistButton.innerText = 'Add To watchlist'
         watchlistButton.id = 'watchlist-button'
 
+        watchlistButton.addEventListener('click', handleWatchlistSubmit)
 
-        
+
         iFRameDiv.append(graphImg)
         stockDetailSquare.append(stockName, iFRameDiv, watchlistButton, sharesOwned, amountInvested)
         stockDetail.append(stockDetailSquare)
-  }
+        
+        
+    }
+    
+    function handleWatchlistSubmit(e) {
+        e.preventDefault()
+        const watchlistUl = document.getElementById('watchlist-ul');
+        const stockName = document.getElementById('stock-title').textContent;
+        
+        
+        const existingItem = Array.from(watchlistUl.children).find(item => item.textContent === stockName);
+        if (existingItem) {
+            return;
+        }
+        
+        const watchlistItem = document.createElement('li');
+        watchlistItem.textContent = stockName;
+        
+        watchlistUl.append(watchlistItem);
+        
+        const watchlistName = document.getElementById('stock-title').value
+        
+        const newWatchlistObj = { name: stockName };
+        
+        fetch('http://localhost:3000/watchlist', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newWatchlistObj)
+        })
+        .then(response => response.json())
+        .then(data => handleWatchlistSubmit(e, data))
+        .catch(error => console.error(error));
+    }
+    
+    function populateWatchlist() {
+      const watchlistUl = document.getElementById('watchlist-ul');
+    
+      fetch('http://localhost:3000/watchlist')
+      .then(response => response.json())
+      .then(data => {
+          data.forEach(stock => {
+              const watchlistItem = document.createElement('li');
+              watchlistItem.textContent = stock.name;
+              watchlistUl.append(watchlistItem);
+          });
+      })
+    }
+    
+    
+    
+    
+    
+    
+    
+      
+    
