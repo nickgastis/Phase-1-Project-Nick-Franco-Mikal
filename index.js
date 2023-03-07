@@ -91,9 +91,9 @@ function addStockContainer(stock) {
         stockName.innerText = `${stock.name} : ${stock.symbol}`
         stockName.id = 'stock-title'
 
-        const sharePrice = document.createElement('h2')
-        sharePrice.innerText = `Share Price: ${stock.sharePrice}`
-        sharePrice.id = 'share-price'
+        // const sharePrice = document.createElement('h2')
+        // sharePrice.innerText = `Share Price: ${stock.sharePrice}`
+        // sharePrice.id = 'share-price'
 
         const sharesOwned = document.createElement('h2')
         sharesOwned.innerText = `Shares Owned: ${stock.sharesOwned}`
@@ -102,16 +102,36 @@ function addStockContainer(stock) {
         const amountInvested = document.createElement('h2')
         amountInvested.innerText = `Amount Invested ${stock.amountInvested}`
         amountInvested.id = 'amount-invested'
+       
+        
+        const iFRameDiv = document.createElement('div')
+        iFRameDiv.id = 'iFrame-div'
+        
+        // let iGraph = document.createElement('iframe')
+        // iGraph.src = 'https://www.finder.com/how-to-buy-apple-stock?futm_medium=cpc&futm_source=google&futm_campaign=17230247220~135291578863&futm_term=buy%20apple%20shares~e~g~kwd-297684248596&futm_content=~~CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE&gclid=CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE#sc-gzVnrw-dNwjH'
+        // iGraph.id = 'iGraph'
+        // iGraph.setAttribute('scrolling', 'no');
 
-        const iGraph = document.createElement('iframe')
-        iGraph.src = 'https://www.webull.com/quote/nasdaq-aapl'
+        // iGraph.addEventListener('load', function() {
+        //     iGraph.contentWindow.scrollTo(0, 10000);
+        //   });
+          
+
+        // iGraph.addEventListener('load', function() {
+        //     iGraph.contentWindow.scrollTo(0, 500);
+        // })
+
+        const graphImg = document.createElement('img')
+        graphImg.src = stock.stockImage
+        graphImg.id = 'graph-img'
+
+        const watchlistButton = document.createElement('button')
+        watchlistButton.innerText = 'Add To watchlist'
+        watchlistButton.id = 'watchlist-button'
 
 
-
-
-
-
-
-    stockDetailSquare.append(stockName, sharePrice, sharesOwned, amountInvested, iGraph)
-   stockDetail.append(stockDetailSquare)
+        
+        iFRameDiv.append(graphImg)
+        stockDetailSquare.append(stockName, iFRameDiv, watchlistButton, sharesOwned, amountInvested)
+        stockDetail.append(stockDetailSquare)
   }
