@@ -57,12 +57,61 @@ function addDetailContainer(politician) {
     stockList.className = 'stockUl'
     
     for (let i = 0; i < politician.stocks.length; i++) {
-      const stockListItem = document.createElement('li');
-      stockListItem.dataset.id = politician.id + i;
-      stockListItem.textContent = `${politician.stocks[i].name} : ${politician.stocks[i].symbol}`;
-      stockList.appendChild(stockListItem);
+        const stockListItem = document.createElement('li');
+        stockListItem.dataset.id = `${politician.id}-${i}`;
+        stockListItem.textContent = `${politician.stocks[i].name} : ${politician.stocks[i].symbol}`;
+        stockList.appendChild(stockListItem);
+      
+        stockListItem.addEventListener('click', (e) => {
+            
+          fetch(`http://localhost:3000/senators/${politician.id}`)
+            .then(resp => resp.json())
+            .then(data => {
+              const stockId = parseInt(e.target.dataset.id.split('-')[1]);
+              const clickedStock = data.stocks.find(stock => stockId === data.stocks.indexOf(stock));
+              addStockContainer(clickedStock);
+
+              window.scrollTo(0,document.body.scrollHeight);
+            });
+        });
     }
-  
+     
     detailContainer.append(featureImg, name, party, stocksSpan, stockList)  
     appendContainer.append(detailContainer)
+}
+
+function addStockContainer(stock) {
+        const stockDetail = document.querySelector('.stock-details')
+        stockDetail.innerText = ''
+
+        const stockDetailSquare = document.createElement('div')
+        stockDetailSquare.className = 'stock-square'
+
+        stockName = document.createElement('h1')
+        stockName.innerText = `${stock.name} : ${stock.symbol}`
+        stockName.id = 'stock-title'
+
+        const sharePrice = document.createElement('h2')
+        sharePrice.innerText = `Share Price: ${stock.sharePrice}`
+        sharePrice.id = 'share-price'
+
+        const sharesOwned = document.createElement('h2')
+        sharesOwned.innerText = `Shares Owned: ${stock.sharesOwned}`
+        sharesOwned.id = 'shares-owned'
+
+        const amountInvested = document.createElement('h2')
+        amountInvested.innerText = `Amount Invested ${stock.amountInvested}`
+        amountInvested.id = 'amount-invested'
+
+        const iGraph = document.createElement('iframe')
+        iGraph.src = 'https://www.webull.com/quote/nasdaq-aapl'
+
+
+
+
+
+
+
+    stockDetailSquare.append(stockName, sharePrice, sharesOwned, amountInvested, iGraph)
+   stockDetail.append(stockDetailSquare)
   }
