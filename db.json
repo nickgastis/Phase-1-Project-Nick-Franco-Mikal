@@ -652,11 +652,11 @@
   "watchlist": [
     {
       "name": "Apple Inc. : AAPL",
-      "id": 1
+      "id": 10
     },
     {
-      "name": "Alphabet Inc. : GOOG",
-      "id": 2
+      "name": "Oracle Corporation : ORCL",
+      "id": 11
     }
   ]
 }

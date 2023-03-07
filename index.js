@@ -18,6 +18,8 @@ function fetchStocks() {
 
 
 
+
+
 function addSenators(senator){
     const politicianImages = document.querySelector(".politician-images");
     const politicianSpan = document.createElement('span');
@@ -42,6 +44,11 @@ function handleImageclick(e) {
     .then(res => res.json())
     .then(data => addDetailContainer(data))
 }
+
+
+
+
+
 
 function addDetailContainer(politician) {
     const appendContainer = document.querySelector('.append-container')
@@ -89,6 +96,12 @@ function addDetailContainer(politician) {
     appendContainer.append(detailContainer)
 }
 
+
+
+
+
+
+
 function addStockContainer(stock) {
         const stockDetail = document.querySelector('.stock-details')
         stockDetail.innerText = ''
@@ -100,21 +113,22 @@ function addStockContainer(stock) {
         stockName.innerText = `${stock.name} : ${stock.symbol}`
         stockName.id = 'stock-title'
 
-        // const sharePrice = document.createElement('h2')
-        // sharePrice.innerText = `Share Price: ${stock.sharePrice}`
-        // sharePrice.id = 'share-price'
-
+        
         const sharesOwned = document.createElement('h2')
         sharesOwned.innerText = `Shares Owned: ${stock.sharesOwned}`
         sharesOwned.id = 'shares-owned'
-
+        
         const amountInvested = document.createElement('h2')
         amountInvested.innerText = `Amount Invested ${stock.amountInvested}`
         amountInvested.id = 'amount-invested'
-       
+        
         
         const iFRameDiv = document.createElement('div')
         iFRameDiv.id = 'iFrame-div'
+
+        // const sharePrice = document.createElement('h2')
+        // sharePrice.innerText = `Share Price: ${stock.sharePrice}`
+        // sharePrice.id = 'share-price'
         
         // let iGraph = document.createElement('iframe')
         // iGraph.src = 'https://www.finder.com/how-to-buy-apple-stock?futm_medium=cpc&futm_source=google&futm_campaign=17230247220~135291578863&futm_term=buy%20apple%20shares~e~g~kwd-297684248596&futm_content=~~CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE&gclid=CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE#sc-gzVnrw-dNwjH'
@@ -145,8 +159,12 @@ function addStockContainer(stock) {
         stockDetailSquare.append(stockName, iFRameDiv, watchlistButton, sharesOwned, amountInvested)
         stockDetail.append(stockDetailSquare)
         
-        
     }
+
+
+
+
+
     
     function handleWatchlistSubmit(e) {
         e.preventDefault()
@@ -161,7 +179,10 @@ function addStockContainer(stock) {
         
         const watchlistItem = document.createElement('li');
         watchlistItem.textContent = stockName;
+
+        //add delete button on click
         
+       
         watchlistUl.append(watchlistItem);
         
         const watchlistName = document.getElementById('stock-title').value
@@ -179,20 +200,43 @@ function addStockContainer(stock) {
         .then(data => handleWatchlistSubmit(e, data))
         .catch(error => console.error(error));
     }
+
+
+
+
     
     function populateWatchlist() {
-      const watchlistUl = document.getElementById('watchlist-ul');
-    
-      fetch('http://localhost:3000/watchlist')
-      .then(response => response.json())
-      .then(data => {
-          data.forEach(stock => {
-              const watchlistItem = document.createElement('li');
-              watchlistItem.textContent = stock.name;
-              watchlistUl.append(watchlistItem);
-          });
-      })
-    }
+        const watchlistUl = document.getElementById('watchlist-ul');
+      
+        fetch('http://localhost:3000/watchlist')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(stock => {
+                const watchlistItem = document.createElement('li');
+                watchlistItem.textContent = stock.name;
+      
+                const deleteStock = document.createElement('button')
+                deleteStock.id = `delete-stock-${stock.id}` 
+                deleteStock.innerText = 'X'
+      
+                deleteStock.addEventListener('click', handleDeleteStockClick)
+      
+                watchlistItem.append(deleteStock)
+                watchlistUl.append(watchlistItem);
+            });
+        })
+      }
+      
+      function handleDeleteStockClick(e) {
+          e.stopPropagation()
+          const buttonId = e.target.id;
+        const stockId = buttonId.split('-')[2];
+          fetch(`http://localhost:3000/watchlist/${stockId}`, {
+              method: 'DELETE'
+          })
+          .then(() => e.target.parentElement.remove())
+      }
+      
     
     
     
