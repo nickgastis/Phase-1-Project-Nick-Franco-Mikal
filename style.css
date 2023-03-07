@@ -206,8 +206,8 @@ span:nth-child(n) {
   }
 
   .stock-square {
-	width: 1000px;
-	height: 700px;
+	width: 900px;
+	height: 650px;
 	margin-top: 20px;
 	background-color: #22272f;
 	margin: auto;
@@ -227,25 +227,41 @@ span:nth-child(n) {
 	padding-top: 25px;
   }
 
-  #iGraph {
-	margin-left: 200px;
-	width: 600px;
-	height: 400px;
+   #iFrame-div {
 	border-radius: 20px;
-	transition: 0.3s;
-	
-	
+	margin: auto;
+	text-align: center;
   }
+  
+  /* #iGraph {
+	position: absolute;
+	top: 640%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.65);
+	width: 4870px;
+	height: 9000px;
+  } */
+   
+   /* #iGraph:hover {
+ border-color: #34bbff;
+ transition: 0.3s;
+   } */
+   
+   #graph-img {
+	height: 350px;
+	width: 600px;
+	margin: auto;
+	border-radius: 15px;
+   }
+  
+	
+  
 
-  #iGraph:hover {
-border-color: #34bbff;
-transition: 0.3s;
-  }
 
   #shares-owned {
 	text-align: left;
 	padding-left: 20px;
-	padding-top: 50px;
+	padding-top: 0px;
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 100;
   }
@@ -261,7 +277,7 @@ transition: 0.3s;
   #watchlist-button {
 	display: inline-block;
 	height: 40px;
-	margin-left: 439px;
+	margin-left: 390px;
 	margin-top: 20px;
 	background-color: #356b8c71;
 	color: #fff;

@@ -107,9 +107,23 @@ function addStockContainer(stock) {
         const iFRameDiv = document.createElement('div')
         iFRameDiv.id = 'iFrame-div'
         
-        const iGraph = document.createElement('iframe')
-        iGraph.src = 'https://www.finder.com/how-to-buy-apple-stock?futm_medium=cpc&futm_source=google&futm_campaign=17230247220~135291578863&futm_term=buy%20apple%20shares~e~g~kwd-297684248596&futm_content=~~CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE&gclid=CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE#sc-gzVnrw-dNwjH'
-        iGraph.id = 'iGraph'
+        // let iGraph = document.createElement('iframe')
+        // iGraph.src = 'https://www.finder.com/how-to-buy-apple-stock?futm_medium=cpc&futm_source=google&futm_campaign=17230247220~135291578863&futm_term=buy%20apple%20shares~e~g~kwd-297684248596&futm_content=~~CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE&gclid=CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE#sc-gzVnrw-dNwjH'
+        // iGraph.id = 'iGraph'
+        // iGraph.setAttribute('scrolling', 'no');
+
+        // iGraph.addEventListener('load', function() {
+        //     iGraph.contentWindow.scrollTo(0, 10000);
+        //   });
+          
+
+        // iGraph.addEventListener('load', function() {
+        //     iGraph.contentWindow.scrollTo(0, 500);
+        // })
+
+        const graphImg = document.createElement('img')
+        graphImg.src = stock.stockImage
+        graphImg.id = 'graph-img'
 
         const watchlistButton = document.createElement('button')
         watchlistButton.innerText = 'Add To watchlist'
@@ -117,7 +131,7 @@ function addStockContainer(stock) {
 
 
         
-        iFRameDiv.append(iGraph)
+        iFRameDiv.append(graphImg)
         stockDetailSquare.append(stockName, iFRameDiv, watchlistButton, sharesOwned, amountInvested)
         stockDetail.append(stockDetailSquare)
   }
