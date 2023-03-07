@@ -12,27 +12,43 @@
             "sharePrice": "$154",
             "sharesOwned": "2,000",
             "amountInvested": "$308,000",
-            "igraph": "https://www.google.com/finance/quote/AAPL:NASDAQ?sa=X&ved=2ahUKEwje4vKmo8r9AhVQgIQIHUBDCvoQ3ecFegQILhAg"
+            "stockImage": ""
           },
           {
             "name": "Alphabet Inc.",
             "symbol": "GOOG",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Meta Platforms, Inc.",
             "symbol": "META",
-            "date": "January 2020"
+            "date": "January 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "JPMorgan Chase & Co.",
             "symbol": "JPM",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Nike, Inc.",
             "symbol": "NKE",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 4567666,
@@ -46,28 +62,48 @@
           {
             "name": "The Proctor & Gamble Company",
             "symbol": "PG",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Abbott Laboratories",
             "symbol": "ABT",
-            "date": "July 2016"
+            "date": "July 2016",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
 
           },
           {
             "name": "Morgan Stanley",
             "symbol": "MS",
-            "date": "August 2020"
+            "date": "August 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Salesforce.com, Inc.",
             "symbol": "CRM",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Eli Lilly and Company",
             "symbol": "LLY",
-            "date": "October 2022"
+            "date": "October 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 2666543,
@@ -81,27 +117,47 @@
           {
             "name": "Walmart Inc.",
             "symbol": "WMT",
-            "date": "July 2016"
+            "date": "July 2016",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Exxon Mobil Corporation",
             "symbol": "XOM",
-            "date": "January 2015"
+            "date": "January 2015",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Bank of America Corporation",
             "symbol": "BAC",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Merck & Co., Inc.",
             "symbol": "MRK",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Chevron Corporation",
             "symbol": "CVX",
-            "date": "January 2015"
+            "date": "January 2015",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 103666984,
@@ -115,27 +171,47 @@
           {
             "name": "Oracle Corporation",
             "symbol": "ORCL",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Cisco Systems, Inc.",
             "symbol": "CSCO",
-            "date": "January 2020"
+            "date": "January 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "McDonald/'s Corporation",
             "symbol": "MCD",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Walmart Inc.",
             "symbol": "WMT",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Philip Morris International Inc.",
             "symbol": "PM",
-            "date": "July 2016"
+            "date": "July 2016",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 773438,
@@ -149,27 +225,47 @@
           {
             "name": "Philip Morris International Inc.",
             "symbol": "PM",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Alphabet Inc.",
             "symbol": "GOOG",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Meta Platforms, Inc.",
             "symbol": "META",
-            "date": "January 2020"
+            "date": "January 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Exxon Mobil Corporation",
             "symbol": "XOM",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Walmart Inc.",
             "symbol": "WMT",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 4670900,
@@ -183,27 +279,47 @@
           {
             "name": "Oracle Corporation",
             "symbol": "ORCL",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Cisco Systems, Inc.",
             "symbol": "CSCO",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Meta Platforms, Inc.",
             "symbol": "META",
-            "date": "January 2020"
+            "date": "January 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "JPMorgan Chase & Co.",
             "symbol": "JPM",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Salesforce.com, Inc.",
             "symbol": "CRM",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 5638901,
@@ -217,27 +333,47 @@
           {
             "name": "Apple Inc.",
             "symbol": "AAPL",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "The Proctor & Gamble Company",
             "symbol": "PG",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Meta Platforms, Inc.",
             "symbol": "META",
-            "date": "January 2020"
+            "date": "January 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Alphabet Inc.",
             "symbol": "GOOG",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Nike, Inc.",
             "symbol": "NKE",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 2456980,
@@ -251,27 +387,47 @@
           {
             "name": "Apple Inc.",
             "symbol": "AAPL",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Alphabet Inc.",
             "symbol": "GOOG",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Meta Platforms, Inc.",
             "symbol": "META",
-            "date": "January 2020"
+            "date": "January 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "JPMorgan Chase & Co.",
             "symbol": "JPM",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Nike, Inc.",
             "symbol": "NKE",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 985092,
@@ -285,27 +441,47 @@
           {
             "name": "Morgan Stanley",
             "symbol": "MS",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Merck & Co., Inc.",
             "symbol": "MRK",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Eli Lilly and Company",
             "symbol": "LLY",
-            "date": "January 2020"
+            "date": "January 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "JPMorgan Chase & Co.",
             "symbol": "JPM",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Nike, Inc.",
             "symbol": "NKE",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 3752510,
@@ -319,27 +495,47 @@
           {
             "name": "Apple Inc.",
             "symbol": "AAPL",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Alphabet Inc.",
             "symbol": "GOOG",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Meta Platforms, Inc.",
             "symbol": "META",
-            "date": "January 2020"
+            "date": "January 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "JPMorgan Chase & Co.",
             "symbol": "JPM",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Nike, Inc.",
             "symbol": "NKE",
-            "date": "May 2018"
+            "date": "May 2018",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 698346,
@@ -353,27 +549,47 @@
           {
             "name": "Alphabet Inc.",
             "symbol": "GOOG",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Merck & Co., Inc.",
             "symbol": "MRK",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Meta Platforms, Inc.",
             "symbol": "META",
-            "date": "January 2021"
+            "date": "January 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "JPMorgan Chase & Co.",
             "symbol": "JPM",
-            "date": "September 2020"
+            "date": "September 2020",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Oracle Corporation",
             "symbol": "ORCL",
-            "date": "May 2016"
+            "date": "May 2016",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 75849,
@@ -387,27 +603,47 @@
           {
             "name": "Walmart Inc.",
             "symbol": "WMT",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Merck & Co., Inc.",
             "symbol": "MRK",
-            "date": "February 2022"
+            "date": "February 2022",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Eli Lilly and Company",
             "symbol": "LLY",
-            "date": "January 2017"
+            "date": "January 2017",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Bank of America Corporation",
             "symbol": "BAC",
-            "date": "September 2017"
+            "date": "September 2017",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           },
           {
             "name": "Nike, Inc.",
             "symbol": "NKE",
-            "date": "May 2010"
+            "date": "May 2010",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "stockImage": ""
           }
         ],
         "investments": 45396,
