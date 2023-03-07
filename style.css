@@ -204,3 +204,19 @@ span:nth-child(n) {
 	  background-color: #077fb3a7;
 	transition: 0.3;
   }
+
+  .stock-square {
+	width: 1000px;
+	height: 700px;
+	margin-top: 20px;
+	background-color: #22272f;
+	margin: auto;
+	box-shadow: 6px 6px 2px 2px rgb(0, 22, 29);
+	border-radius: 25px;
+	padding-bottom: 40px;
+	
+  }
+
+  .append-container {
+	padding-bottom: 30px;
+  }

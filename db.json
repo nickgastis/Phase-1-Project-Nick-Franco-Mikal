@@ -8,7 +8,11 @@
           {
             "name": "Apple Inc.",
             "symbol": "AAPL",
-            "date": "September 2021"
+            "date": "September 2021",
+            "sharePrice": "$154",
+            "sharesOwned": "2,000",
+            "amountInvested": "$308,000",
+            "igraph": "https://www.google.com/finance/quote/AAPL:NASDAQ?sa=X&ved=2ahUKEwje4vKmo8r9AhVQgIQIHUBDCvoQ3ecFegQILhAg"
           },
           {
             "name": "Alphabet Inc.",
