@@ -340,8 +340,78 @@
         ],
         "investments": 698346,
         "party": "Democrat"
+      },
+      {
+        "id": 11,
+        "name": "Kirsten Gillibrand",
+        "image": "https://suffolkcountydems.com/sites/default/files/styles/scale_280/public/images/photos_candidates/220px-kirsten_gillibrand_2006_official_photo_cropped.jpg?itok=jY6IoU8h",
+        "stocks": [
+          {
+            "name": "Alphabet Inc.",
+            "symbol": "GOOG",
+            "date": "September 2021"
+          },
+          {
+            "name": "Merck & Co., Inc.",
+            "symbol": "MRK",
+            "date": "February 2022"
+          },
+          {
+            "name": "Meta Platforms, Inc.",
+            "symbol": "META",
+            "date": "January 2021"
+          },
+          {
+            "name": "JPMorgan Chase & Co.",
+            "symbol": "JPM",
+            "date": "September 2020"
+          },
+          {
+            "name": "Oracle Corporation",
+            "symbol": "ORCL",
+            "date": "May 2016"
+          }
+        ],
+        "investments": 75849,
+        "party": "Democrat"
+      },
+      {
+        "id": 12,
+        "name": "Jeff Merkley",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Merkley_official_photo.jpg/200px-Merkley_official_photo.jpg",
+        "stocks": [
+          {
+            "name": "Walmart Inc.",
+            "symbol": "WMT",
+            "date": "September 2021"
+          },
+          {
+            "name": "Merck & Co., Inc.",
+            "symbol": "MRK",
+            "date": "February 2022"
+          },
+          {
+            "name": "Eli Lilly and Company",
+            "symbol": "LLY",
+            "date": "January 2017"
+          },
+          {
+            "name": "Bank of America Corporation",
+            "symbol": "BAC",
+            "date": "September 2017"
+          },
+          {
+            "name": "Nike, Inc.",
+            "symbol": "NKE",
+            "date": "May 2010"
+          }
+        ],
+        "investments": 45396,
+        "party": "Democrat"
       }
-      
+    ],
+    "watchlist": [
+
     ]
   }
   
