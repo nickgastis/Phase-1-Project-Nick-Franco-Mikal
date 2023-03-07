@@ -219,4 +219,58 @@ span:nth-child(n) {
 
   .append-container {
 	padding-bottom: 30px;
+	text-align: center;
+  }
+
+  #stock-title {
+	text-align: center;
+	padding-top: 25px;
+  }
+
+  #iGraph {
+	margin-left: 200px;
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+	transition: 0.3s;
+	
+	
+  }
+
+  #iGraph:hover {
+border-color: #34bbff;
+transition: 0.3s;
+  }
+
+  #shares-owned {
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 100;
+  }
+
+  #amount-invested {
+	text-align: left;
+	padding-left: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 100;
+  }
+  
+
+  #watchlist-button {
+	display: inline-block;
+	height: 40px;
+	margin-left: 439px;
+	margin-top: 20px;
+	background-color: #356b8c71;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: backround-color ;
+  }
+
+  #watchlist-button:hover {
+	background-color: #077fb3a7;
   }
