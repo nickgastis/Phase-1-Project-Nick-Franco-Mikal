@@ -12,7 +12,8 @@
           "sharePrice": "$154",
           "sharesOwned": "2,000",
           "amountInvested": "$308,000",
-          "stockImage": "https://live.staticflickr.com/65535/52732800612_e9debfdd40_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800612_e9debfdd40_z.jpg",
+          "info":"Apple Inc. is a technology company founded in 1976 to sell on of the first personal home computer systems. In 2018, it became the first publicly traded U.S. company to be valued at over $1 trillion."
         },
         {
           "name": "Alphabet Inc.",
@@ -21,7 +22,8 @@
           "sharePrice": "$94",
           "sharesOwned": "1,020",
           "amountInvested": "$95,880",
-          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg",
+          "info":"Alphabet Inc. is a technology conglomerate holding company founded in 2015 when Google restructured to include their subsidiaries under one parent company. Alphabet is the worlds third largest technology company by revenue."
         },
         {
           "name": "Meta Platforms, Inc.",
@@ -30,7 +32,8 @@
           "sharePrice": "$185",
           "sharesOwned": "800",
           "amountInvested": "$166,500",
-          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg",
+          "info":"Meta Platforms Inc., formerly Facebook Inc, is a technological conglomerate which owns Facebook, Instagram, and WhatsApp, among others. Meta is one of the worlds largest publicly traded corporations."
         },
         {
           "name": "JPMorgan Chase & Co.",
@@ -39,7 +42,8 @@
           "sharePrice": "$138",
           "sharesOwned": "679",
           "amountInvested": "$93,702",
-          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg",
+          "info":"J.P. Morgan & Co. is a financial institution founded in 1871 by J.P. Morgan. The company specializes in private and investment banking, as well as asset management."
         },
         {
           "name": "Nike, Inc.",
@@ -48,7 +52,8 @@
           "sharePrice": "$119",
           "sharesOwned": "1,100",
           "amountInvested": "$130,900",
-          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg",
+          "info":"Nike Inc. is an athletic shoe and apparel founded in 1964 by Bill Bowerman and Phil Knight. It is the worlds largest supplier of athletic shoes and apparel as well as a major manufacturer of sports equipment."
         }
       ],
       "investments": 4567666,
@@ -66,7 +71,8 @@
           "sharePrice": "$137",
           "sharesOwned": "140",
           "amountInvested": "$19,180",
-          "stockImage": "https://live.staticflickr.com/65535/52732800492_e4b6e9562a_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800492_e4b6e9562a_z.jpg",
+          "info":"The Procter and Gamble Company was founded in 1837 by William Procter and James Gamble. It specializes in a wide range of consumer health, hygiene, and personal care products."
         },
         {
           "name": "Abbott Laboratories",
@@ -75,7 +81,8 @@
           "sharePrice": "$99",
           "sharesOwned": "860",
           "amountInvested": "$85,140",
-          "stockImage": "https://live.staticflickr.com/65535/52732800467_60ab9b8337_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800467_60ab9b8337_z.jpg",
+          "info":"Abbott Laboratories is a medical device and health care company founded in 1888 by Wallace Calvin Abbott. Abbott Laboratories operates in over 160 countries with subsidiaries worldwide."
         },
         {
           "name": "Morgan Stanley",
@@ -84,7 +91,8 @@
           "sharePrice": "$96",
           "sharesOwned": "3,112",
           "amountInvested": "$298,752",
-          "stockImage": "https://live.staticflickr.com/65535/52733323106_8594d5c466_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323106_8594d5c466_z.jpg",
+          "info":"Morgan Stanley is an investment management and financial services company founded in 1935 after a split with their parent company, J.P. Morgan & Co. While JPM stuck with commercial banking, Morgan Stanley focused on investment banking."
         },
         {
           "name": "Salesforce.com, Inc.",
@@ -93,7 +101,8 @@
           "sharePrice": "$183",
           "sharesOwned": "1,564",
           "amountInvested": "$286,212",
-          "stockImage": "https://live.staticflickr.com/65535/52732799707_ab504524aa_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799707_ab504524aa_z.jpg",
+          "info":"Salesforce Inc. is a software company founded in 1999 by Marc Benioff. Salesforce is on of the largest technological companies in the world specializing in cloud-based communications."
         },
         {
           "name": "Eli Lilly and Company",
@@ -102,7 +111,8 @@
           "sharePrice": "$310",
           "sharesOwned": "720",
           "amountInvested": "$223,200",
-          "stockImage": "https://live.staticflickr.com/65535/52733737620_8567c2fc98_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733737620_8567c2fc98_z.jpg",
+          "info":"Eli Lilly and Company is a pharmaceutical company founded in 1876 by Colonel Eli Lilly. Their line of products are sold in approximately 125 countries around the world."
         }
       ],
       "investments": 2666543,
@@ -120,7 +130,8 @@
           "sharePrice": "$139",
           "sharesOwned": "4,000",
           "amountInvested": "$556,000",
-          "stockImage": "https://live.staticflickr.com/65535/52733737610_0820194617_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733737610_0820194617_z.jpg",
+          "info":"Walmart Inc. is a retail corporation founded by Sam and James “Bud” Walron in 1969. They are one of the world’s largest companies by revenue and one of the largest private employers."
         },
         {
           "name": "Exxon Mobil Corporation",
@@ -129,7 +140,8 @@
           "sharePrice": "$111",
           "sharesOwned": "7,012",
           "amountInvested": "$778,332",
-          "stockImage": "https://live.staticflickr.com/65535/52733323851_4c3391fe66_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323851_4c3391fe66_z.jpg",
+          "info":"The ExxonMobil Corporation is an oil and gas company. It is the largest investor-owned oil company in the world and the largest headquartered in the Western Hemisphere."
         },
         {
           "name": "Bank of America Corporation",
@@ -138,7 +150,8 @@
           "sharePrice": "$33",
           "sharesOwned": "2,300",
           "amountInvested": "$75,900",
-          "stockImage": "https://live.staticflickr.com/65535/52732800482_4112e6f229_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800482_4112e6f229_z.jpg",
+          "info":"The Bank of America Corporation is a investment bank founded in 1923. It is the second largest banking institution in the United States. "
         },
         {
           "name": "Merck & Co., Inc.",
@@ -147,7 +160,8 @@
           "sharePrice": "111",
           "sharesOwned": "390",
           "amountInvested": "$43,290",
-          "stockImage": "https://live.staticflickr.com/65535/52733808668_9b30e4b341_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808668_9b30e4b341_z.jpg",
+          "info":"Merck & Co., Inc. is a pharmaceutical company founded in 1891 by George Merck and Theodore Weicker. They typically rank in the top five largest pharmaceutical companies in the world every year."
         },
         {
           "name": "Chevron Corporation",
@@ -156,7 +170,8 @@
           "sharePrice": "$164",
           "sharesOwned": "5,601",
           "amountInvested": "$918,564",
-          "stockImage": "https://live.staticflickr.com/65535/52732799712_5aa0a991dc_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799712_5aa0a991dc_z.jpg",
+          "info":"Chevron is a energy corporation founded by the 1870’s under the parent company Standard Oil. It is the second largest oil company in the United States, and one of the largest companies in the world."
         }
       ],
       "investments": 103666984,
@@ -174,7 +189,8 @@
           "sharePrice": "$88",
           "sharesOwned": "211",
           "amountInvested": "$18,568",
-          "stockImage": "https://live.staticflickr.com/65535/52732799732_73df96376b_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799732_73df96376b_z.jpg",
+          "info":"Oracle is a computer technology corporation founded in 1977 and currently based out of Austin, Texas. They were listed as the third largest software company in the world as recently as 2020."
         },
         {
           "name": "Cisco Systems, Inc.",
@@ -183,7 +199,8 @@
           "sharePrice": "$48",
           "sharesOwned": "1,890",
           "amountInvested": "$90,720",
-          "stockImage": "https://live.staticflickr.com/65535/52733323086_1aae0535c4_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323086_1aae0535c4_z.jpg",
+          "info":"Cisco Systems Inc is a digital communications technology conglomerate founded in 1984 by Leonard Bosack and Sandy Lerner. Cisco develops, manufacturers, and sells networking equipment and other high-technology products."
         },
         {
           "name": "McDonald/'s Corporation",
@@ -192,7 +209,8 @@
           "sharePrice": "$267",
           "sharesOwned": "1,178",
           "amountInvested": "$314,526",
-          "stockImage": "https://live.staticflickr.com/65535/52733323866_63abcab377_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323866_63abcab377_z.jpg",
+          "info":"McDonald’s Corporation is a multinational fast food chain founded in 1940 by Richard and Maurice McDonald. McDonald’s is the worlds largest fast food chain, serving more than 69 million customers daily."
         },
         {
           "name": "Walmart Inc.",
@@ -201,7 +219,8 @@
           "sharePrice": "$139.",
           "sharesOwned": "4301",
           "amountInvested": "$597,839",
-          "stockImage": "https://live.staticflickr.com/65535/52733737610_0820194617_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733737610_0820194617_z.jpg",
+          "info":"Walmart Inc. is a retail corporation founded by Sam and James “Bud” Walron in 1969. They are one of the world’s largest companies by revenue and one of the largest private employers."
         },
         {
           "name": "Philip Morris International Inc.",
@@ -210,7 +229,8 @@
           "sharePrice": "$99",
           "sharesOwned": "176",
           "amountInvested": "$15,444",
-          "stockImage": "https://live.staticflickr.com/65535/52733809423_2f44896c35_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733809423_2f44896c35_z.jpg",
+          "info":"The Philip Morris International Inc. is a tobacco company founded in 1847. It is one of the five largest tobacco companies in the world, colloquially known as ‘Big Tobacco’."
         }
       ],
       "investments": 773438,
@@ -228,7 +248,8 @@
           "sharePrice": "$99",
           "sharesOwned": "451",
           "amountInvested": "$44,649",
-          "stockImage": "https://live.staticflickr.com/65535/52733809423_2f44896c35_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733809423_2f44896c35_z.jpg",
+          "info":"The Philip Morris International Inc. is a tobacco company founded in 1847. It is one of the five largest tobacco companies in the world, colloquially known as ‘Big Tobacco’."
         },
         {
           "name": "Alphabet Inc.",
@@ -237,7 +258,8 @@
           "sharePrice": "$94",
           "sharesOwned": "309",
           "amountInvested": "$29,046",
-          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg",
+          "info":"Alphabet Inc. is a technology conglomerate holding company founded in 2015 when Google restructured to include their subsidiaries under one parent company. Alphabet is the worlds third largest technology company by revenue."
         },
         {
           "name": "Meta Platforms, Inc.",
@@ -246,7 +268,8 @@
           "sharePrice": "185",
           "sharesOwned": "1,809",
           "amountInvested": "$334,665",
-          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg",
+          "info":"Meta Platforms Inc., formerly Facebook Inc, is a technological conglomerate which owns Facebook, Instagram, and WhatsApp, among others. Meta is one of the worlds largest publicly traded corporations."
         },
         {
           "name": "Exxon Mobil Corporation",
@@ -255,7 +278,8 @@
           "sharePrice": "$111",
           "sharesOwned": "945",
           "amountInvested": "$104,895",
-          "stockImage": "https://live.staticflickr.com/65535/52733323851_4c3391fe66_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323851_4c3391fe66_z.jpg",
+          "info":"The ExxonMobil Corporation is an oil and gas company. It is the largest investor-owned oil company in the world and the largest headquartered in the Western Hemisphere."
         },
         {
           "name": "Walmart Inc.",
@@ -264,7 +288,8 @@
           "sharePrice": "$139",
           "sharesOwned": "683",
           "amountInvested": "$94,937",
-          "stockImage": "https://live.staticflickr.com/65535/52733737610_0820194617_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733737610_0820194617_z.jpg",
+          "info":"Walmart Inc. is a retail corporation founded by Sam and James “Bud” Walron in 1969. They are one of the world’s largest companies by revenue and one of the largest private employers."
         }
       ],
       "investments": 4670900,
@@ -282,7 +307,8 @@
           "sharePrice": "$88",
           "sharesOwned": "1,462",
           "amountInvested": "$128,656",
-          "stockImage": "https://live.staticflickr.com/65535/52732799732_73df96376b_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799732_73df96376b_z.jpg",
+          "info":"Oracle is a computer technology corporation founded in 1977 and currently based out of Austin, Texas. They were listed as the third largest software company in the world as recently as 2020."
         },
         {
           "name": "Cisco Systems, Inc.",
@@ -291,7 +317,8 @@
           "sharePrice": "$48",
           "sharesOwned": "970",
           "amountInvested": "$46,560",
-          "stockImage": "https://live.staticflickr.com/65535/52733323086_1aae0535c4_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323086_1aae0535c4_z.jpg",
+          "info":"Cisco Systems Inc is a digital communications technology conglomerate founded in 1984 by Leonard Bosack and Sandy Lerner. Cisco develops, manufacturers, and sells networking equipment and other high-technology products."
         },
         {
           "name": "Meta Platforms, Inc.",
@@ -300,7 +327,8 @@
           "sharePrice": "$184",
           "sharesOwned": "2,200",
           "amountInvested": "$404,800",
-          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg",
+          "info":"Meta Platforms Inc., formerly Facebook Inc, is a technological conglomerate which owns Facebook, Instagram, and WhatsApp, among others. Meta is one of the worlds largest publicly traded corporations."
         },
         {
           "name": "JPMorgan Chase & Co.",
@@ -309,7 +337,8 @@
           "sharePrice": "$138",
           "sharesOwned": "3,121",
           "amountInvested": "$430,698",
-          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg",
+          "info":"J.P. Morgan & Co. is a financial institution founded in 1871 by J.P. Morgan. The company specializes in private and investment banking, as well as asset management."
         },
         {
           "name": "Salesforce.com, Inc.",
@@ -318,7 +347,8 @@
           "sharePrice": "$183",
           "sharesOwned": "1,399",
           "amountInvested": "$256,017",
-          "stockImage": "https://live.staticflickr.com/65535/52732799707_ab504524aa_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799707_ab504524aa_z.jpg",
+          "info":"Salesforce Inc. is a software company founded in 1999 by Marc Benioff. Salesforce is on of the largest technological companies in the world specializing in cloud-based communications."
         }
       ],
       "investments": 5638901,
@@ -336,7 +366,8 @@
           "sharePrice": "$154",
           "sharesOwned": "7,900",
           "amountInvested": "1,216,600",
-          "stockImage": "https://live.staticflickr.com/65535/52732800612_e9debfdd40_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800612_e9debfdd40_z.jpg",
+          "info":"Apple Inc. is a technology company founded in 1976 to sell on of the first personal home computer systems. In 2018, it became the first publicly traded U.S. company to be valued at over $1 trillion."
         },
         {
           "name": "The Proctor & Gamble Company",
@@ -345,7 +376,8 @@
           "sharePrice": "$137",
           "sharesOwned": "557",
           "amountInvested": "$76,309",
-          "stockImage": "https://live.staticflickr.com/65535/52732800492_e4b6e9562a_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800492_e4b6e9562a_z.jpg",
+          "info":"The Procter and Gamble Company was founded in 1837 by William Procter and James Gamble. It specializes in a wide range of consumer health, hygiene, and personal care products."
         },
         {
           "name": "Meta Platforms, Inc.",
@@ -354,7 +386,8 @@
           "sharePrice": "$184",
           "sharesOwned": "997",
           "amountInvested": "$183,448",
-          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg",
+          "info":"Meta Platforms Inc., formerly Facebook Inc, is a technological conglomerate which owns Facebook, Instagram, and WhatsApp, among others. Meta is one of the worlds largest publicly traded corporations."
         },
         {
           "name": "Alphabet Inc.",
@@ -363,7 +396,8 @@
           "sharePrice": "$94",
           "sharesOwned": "9,744",
           "amountInvested": "$915,936",
-          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg",
+          "info":"Alphabet Inc. is a technology conglomerate holding company founded in 2015 when Google restructured to include their subsidiaries under one parent company. Alphabet is the worlds third largest technology company by revenue."
         },
         {
           "name": "Nike, Inc.",
@@ -372,7 +406,8 @@
           "sharePrice": "$119",
           "sharesOwned": "790",
           "amountInvested": "$94,010",
-          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg",
+          "info":"Nike Inc. is an athletic shoe and apparel founded in 1964 by Bill Bowerman and Phil Knight. It is the worlds largest supplier of athletic shoes and apparel as well as a major manufacturer of sports equipment."
         }
       ],
       "investments": 2456980,
@@ -390,7 +425,8 @@
           "sharePrice": "$151",
           "sharesOwned": "2,400",
           "amountInvested": "$362,400",
-          "stockImage": "https://live.staticflickr.com/65535/52732800612_e9debfdd40_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800612_e9debfdd40_z.jpg",
+          "info":"Apple Inc. is a technology company founded in 1976 to sell on of the first personal home computer systems. In 2018, it became the first publicly traded U.S. company to be valued at over $1 trillion."
         },
         {
           "name": "Alphabet Inc.",
@@ -399,7 +435,8 @@
           "sharePrice": "$94",
           "sharesOwned": "1,156",
           "amountInvested": "$108,664",
-          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg",
+          "info":"Alphabet Inc. is a technology conglomerate holding company founded in 2015 when Google restructured to include their subsidiaries under one parent company. Alphabet is the worlds third largest technology company by revenue."
         },
         {
           "name": "Meta Platforms, Inc.",
@@ -408,7 +445,8 @@
           "sharePrice": "$184",
           "sharesOwned": "901",
           "amountInvested": "$165,784",
-          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg",
+          "info":"Meta Platforms Inc., formerly Facebook Inc, is a technological conglomerate which owns Facebook, Instagram, and WhatsApp, among others. Meta is one of the worlds largest publicly traded corporations."
         },
         {
           "name": "JPMorgan Chase & Co.",
@@ -417,7 +455,8 @@
           "sharePrice": "$138",
           "sharesOwned": "490",
           "amountInvested": "$67,620",
-          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg",
+          "info":"J.P. Morgan & Co. is a financial institution founded in 1871 by J.P. Morgan. The company specializes in private and investment banking, as well as asset management."
         },
         {
           "name": "Nike, Inc.",
@@ -426,7 +465,8 @@
           "sharePrice": "$119",
           "sharesOwned": "340",
           "amountInvested": "$40,460",
-          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg",
+          "info":"Nike Inc. is an athletic shoe and apparel founded in 1964 by Bill Bowerman and Phil Knight. It is the worlds largest supplier of athletic shoes and apparel as well as a major manufacturer of sports equipment."
         }
       ],
       "investments": 985092,
@@ -444,7 +484,8 @@
           "sharePrice": "$96",
           "sharesOwned": "1,702",
           "amountInvested": "$163,392",
-          "stockImage": "https://live.staticflickr.com/65535/52733323106_8594d5c466_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323106_8594d5c466_z.jpg",
+          "info":"Morgan Stanley is an investment management and financial services company founded in 1935 after a split with their parent company, J.P. Morgan & Co. While JPM stuck with commercial banking, Morgan Stanley focused on investment banking."
         },
         {
           "name": "Merck & Co., Inc.",
@@ -453,7 +494,8 @@
           "sharePrice": "$111",
           "sharesOwned": "3,298",
           "amountInvested": "$366,078",
-          "stockImage": "https://live.staticflickr.com/65535/52733808668_9b30e4b341_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808668_9b30e4b341_z.jpg",
+          "info":"Merck & Co., Inc. is a pharmaceutical company founded in 1891 by George Merck and Theodore Weicker. They typically rank in the top five largest pharmaceutical companies in the world every year."
         },
         {
           "name": "Eli Lilly and Company",
@@ -462,7 +504,8 @@
           "sharePrice": "$310",
           "sharesOwned": "6300",
           "amountInvested": "$1,953,000",
-          "stockImage": "https://live.staticflickr.com/65535/52733737620_8567c2fc98_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733737620_8567c2fc98_z.jpg",
+          "info":"Eli Lilly and Company is a pharmaceutical company founded in 1876 by Colonel Eli Lilly. Their line of products are sold in approximately 125 countries around the world."
         },
         {
           "name": "JPMorgan Chase & Co.",
@@ -471,7 +514,8 @@
           "sharePrice": "$138",
           "sharesOwned": "5,790",
           "amountInvested": "$799,020",
-          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg",
+          "info":"J.P. Morgan & Co. is a financial institution founded in 1871 by J.P. Morgan. The company specializes in private and investment banking, as well as asset management."
         },
         {
           "name": "Nike, Inc.",
@@ -480,7 +524,8 @@
           "sharePrice": "$119",
           "sharesOwned": "799",
           "amountInvested": "$95,081",
-          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg",
+          "info":"Nike Inc. is an athletic shoe and apparel founded in 1964 by Bill Bowerman and Phil Knight. It is the worlds largest supplier of athletic shoes and apparel as well as a major manufacturer of sports equipment."
         }
       ],
       "investments": 3752510,
@@ -498,7 +543,8 @@
           "sharePrice": "$151",
           "sharesOwned": "6,003",
           "amountInvested": "$906,453",
-          "stockImage": "https://live.staticflickr.com/65535/52732800612_e9debfdd40_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800612_e9debfdd40_z.jpg",
+          "info":"Apple Inc. is a technology company founded in 1976 to sell on of the first personal home computer systems. In 2018, it became the first publicly traded U.S. company to be valued at over $1 trillion."
         },
         {
           "name": "Alphabet Inc.",
@@ -507,7 +553,8 @@
           "sharePrice": "$94",
           "sharesOwned": "2,000",
           "amountInvested": "$188,000",
-          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg",
+          "info":"Alphabet Inc. is a technology conglomerate holding company founded in 2015 when Google restructured to include their subsidiaries under one parent company. Alphabet is the worlds third largest technology company by revenue."
         },
         {
           "name": "Meta Platforms, Inc.",
@@ -516,7 +563,8 @@
           "sharePrice": "$184",
           "sharesOwned": "1,783",
           "amountInvested": "$328,072",
-          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg",
+          "info":"Meta Platforms Inc., formerly Facebook Inc, is a technological conglomerate which owns Facebook, Instagram, and WhatsApp, among others. Meta is one of the worlds largest publicly traded corporations."
         },
         {
           "name": "JPMorgan Chase & Co.",
@@ -525,7 +573,8 @@
           "sharePrice": "$138",
           "sharesOwned": "4,030",
           "amountInvested": "$556,140",
-          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg",
+          "info":"J.P. Morgan & Co. is a financial institution founded in 1871 by J.P. Morgan. The company specializes in private and investment banking, as well as asset management."
         },
         {
           "name": "Nike, Inc.",
@@ -534,7 +583,8 @@
           "sharePrice": "$119",
           "sharesOwned": "723",
           "amountInvested": "$86,037",
-          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg",
+          "info":"Nike Inc. is an athletic shoe and apparel founded in 1964 by Bill Bowerman and Phil Knight. It is the worlds largest supplier of athletic shoes and apparel as well as a major manufacturer of sports equipment."
         }
       ],
       "investments": 698346,
@@ -552,7 +602,8 @@
           "sharePrice": "$94",
           "sharesOwned": "520",
           "amountInvested": "$48,880",
-          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808663_c313ea1f49_z.jpg",
+          "info":"Alphabet Inc. is a technology conglomerate holding company founded in 2015 when Google restructured to include their subsidiaries under one parent company. Alphabet is the worlds third largest technology company by revenue."
         },
         {
           "name": "Merck & Co., Inc.",
@@ -561,7 +612,8 @@
           "sharePrice": "111",
           "sharesOwned": "461",
           "amountInvested": "$51,171",
-          "stockImage": "https://live.staticflickr.com/65535/52733808668_9b30e4b341_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808668_9b30e4b341_z.jpg",
+          "info":"Merck & Co., Inc. is a pharmaceutical company founded in 1891 by George Merck and Theodore Weicker. They typically rank in the top five largest pharmaceutical companies in the world every year."
         },
         {
           "name": "Meta Platforms, Inc.",
@@ -570,7 +622,8 @@
           "sharePrice": "$184",
           "sharesOwned": "1,490",
           "amountInvested": "$274,160",
-          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733323081_d378b53c22_z.jpg",
+          "info":"Meta Platforms Inc., formerly Facebook Inc, is a technological conglomerate which owns Facebook, Instagram, and WhatsApp, among others. Meta is one of the worlds largest publicly traded corporations."
         },
         {
           "name": "JPMorgan Chase & Co.",
@@ -579,7 +632,8 @@
           "sharePrice": "138",
           "sharesOwned": "1,367",
           "amountInvested": "$188,646",
-          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799682_fabdf0338d_z.jpg",
+          "info":"J.P. Morgan & Co. is a financial institution founded in 1871 by J.P. Morgan. The company specializes in private and investment banking, as well as asset management."
         },
         {
           "name": "Oracle Corporation",
@@ -588,7 +642,8 @@
           "sharePrice": "$88",
           "sharesOwned": "640",
           "amountInvested": "$63,360",
-          "stockImage": "https://live.staticflickr.com/65535/52732799732_73df96376b_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732799732_73df96376b_z.jpg",
+          "info":"Oracle is a computer technology corporation founded in 1977 and currently based out of Austin, Texas. They were listed as the third largest software company in the world as recently as 2020."
         }
       ],
       "investments": 75849,
@@ -606,7 +661,8 @@
           "sharePrice": "$139",
           "sharesOwned": "2,456",
           "amountInvested": "$341,384",
-          "stockImage": "https://live.staticflickr.com/65535/52733737610_0820194617_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733737610_0820194617_z.jpg",
+          "info":"Walmart Inc. is a retail corporation founded by Sam and James “Bud” Walron in 1969. They are one of the world’s largest companies by revenue and one of the largest private employers."
         },
         {
           "name": "Merck & Co., Inc.",
@@ -615,7 +671,8 @@
           "sharePrice": "$111",
           "sharesOwned": "811",
           "amountInvested": "$90,021",
-          "stockImage": "https://live.staticflickr.com/65535/52733808668_9b30e4b341_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733808668_9b30e4b341_z.jpg",
+          "info":"Merck & Co., Inc. is a pharmaceutical company founded in 1891 by George Merck and Theodore Weicker. They typically rank in the top five largest pharmaceutical companies in the world every year."
         },
         {
           "name": "Eli Lilly and Company",
@@ -624,7 +681,8 @@
           "sharePrice": "$310",
           "sharesOwned": "633",
           "amountInvested": "$196,230",
-          "stockImage": "https://live.staticflickr.com/65535/52733737620_8567c2fc98_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733737620_8567c2fc98_z.jpg",
+          "info":"Eli Lilly and Company is a pharmaceutical company founded in 1876 by Colonel Eli Lilly. Their line of products are sold in approximately 125 countries around the world."
         },
         {
           "name": "Bank of America Corporation",
@@ -633,7 +691,8 @@
           "sharePrice": "$33",
           "sharesOwned": "1,794",
           "amountInvested": "$59,202",
-          "stockImage": "https://live.staticflickr.com/65535/52732800482_4112e6f229_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52732800482_4112e6f229_z.jpg",
+          "info":"The Bank of America Corporation is a investment bank founded in 1923. It is the second largest banking institution in the United States. "
         },
         {
           "name": "Nike, Inc.",
@@ -642,7 +701,8 @@
           "sharePrice": "$119",
           "sharesOwned": "224",
           "amountInvested": "$26,656",
-          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg"
+          "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg",
+          "info":"Nike Inc. is an athletic shoe and apparel founded in 1964 by Bill Bowerman and Phil Knight. It is the worlds largest supplier of athletic shoes and apparel as well as a major manufacturer of sports equipment."
         }
       ],
       "investments": 45396,
