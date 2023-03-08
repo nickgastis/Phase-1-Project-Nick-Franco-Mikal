@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function fetchStocks() {
-    fetch("http://localhost:3000/senators/?_limit=6")
+    fetch("http://localhost:3000/senators/")
     .then(res => res.json())
     .then(data => {
         data.forEach(senator => {
@@ -64,7 +64,8 @@ function addDetailContainer(politician) {
   
     const name = document.createElement('h2')
     name.innerText = politician.name
-  
+   
+    
     const party = document.createElement('h3')
     party.innerText = `Party: ${politician.party}`
   
@@ -73,6 +74,8 @@ function addDetailContainer(politician) {
   
     const stockList = document.createElement('ul')
     stockList.className = 'stockUl'
+
+
     
     for (let i = 0; i < politician.stocks.length; i++) {
         const stockListItem = document.createElement('li');
@@ -89,14 +92,21 @@ function addDetailContainer(politician) {
               const clickedStock = data.stocks.find(stock => stockId === data.stocks.indexOf(stock));
               addStockContainer(clickedStock);
 
-              window.scrollTo(0,document.body.scrollHeight);
+              
             });
         });
     }
      
     detailContainer.append(featureImg, name, party, stocksSpan, stockList)  
     appendContainer.append(detailContainer)
-}
+
+    setTimeout(() => {
+        window.scrollTo({
+            top: 950,
+            behavior: 'smooth'
+          });
+        }, 100);
+    }
 
 
 
@@ -141,8 +151,14 @@ function addStockContainer(stock) {
         stockDetailSquare.append(stockName, iFRameDiv, watchlistButton, aboutStockTitle, stockInfo)
         stockDetail.append(stockDetailSquare)
         
-    }
-
+        setTimeout(() => {
+            window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: 'smooth'
+            });
+          }, 100);
+        }
+    
 
 
 
@@ -198,6 +214,8 @@ function addStockContainer(stock) {
                 const deleteStock = document.createElement('button')
                 deleteStock.id = `delete-stock-${stock.id}` 
                 deleteStock.innerText = 'X'
+
+                
       
                 deleteStock.addEventListener('click', handleDeleteStockClick)
       
@@ -206,6 +224,8 @@ function addStockContainer(stock) {
             });
         })
       }
+
+
 
       // Removes stock from watchlist
       
