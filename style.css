@@ -26,7 +26,11 @@ h2, li, h1, p, label, h3 {
 	padding-left: 65px;
 	margin-top: 20px;
 	font-size: 60px;
-	background-color: #0e172474;
+  background-color: #0e172474;
+
+	
+	
+
 }
 
 	.poliTitle {
@@ -40,8 +44,8 @@ h2, li, h1, p, label, h3 {
 
 .watchlist {
 	flex: 3;
-	width: 225px;
-	margin-left: 20px;
+	width: 280px;
+	margin-left: 6px;
 	margin-top: 21px;
 	position: fixed;
 	height: 2000px;
@@ -64,6 +68,8 @@ h2, li, h1, p, label, h3 {
 	border: 1px solid #0000005f;
 	background-color: #356b8c71;
 	transition: background-color 0.3s;
+	height: 45px;
+	font-size: 15px;
 }
 
 .watchlist li:hover {
@@ -100,7 +106,7 @@ form input[type="text"] {
 	padding: 10px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-	width: 60%;
+	width: 40%;
 	background-color: #333;
 	color: #fff;
 }
@@ -159,7 +165,7 @@ span:nth-child(n) {
 
 .detail-container {
 	height: 500px;
-	width: 500px;
+	width: 600px;
 	background-color: #22272f;
 	margin: auto;
 	box-shadow: 6px 6px 2px 2px rgb(0, 22, 29);
@@ -205,8 +211,8 @@ span:nth-child(n) {
   }
 
   .stock-square {
-	width: 900px;
-	height: 650px;
+	width: 825px;
+	height: 600px;
 	margin-top: 20px;
 	background-color: #22272f;
 	margin: auto;
@@ -247,16 +253,16 @@ span:nth-child(n) {
    } */
    
    #graph-img {
-	height: 350px;
+	height: 300px;
 	width: 600px;
 	margin: auto;
 	border-radius: 15px;
 	box-shadow:  rgba(124, 196, 243, 0.632);
-   }
-  
-	
-  
 
+   }
+
+  
+  
 
   #shares-owned {
 	text-align: left;
@@ -277,7 +283,7 @@ span:nth-child(n) {
   #watchlist-button {
 	display: inline-block;
 	height: 40px;
-	margin-left: 390px;
+	margin-left: 358px;
 	margin-top: 20px;
 	background-color: #356b8c71;
 	color: #fff;
@@ -290,6 +296,7 @@ span:nth-child(n) {
   #watchlist-button:hover {
 	background-color: #077fb3a7;
   }
+
 
   #filter-button1{
 	background-color:#0073ff79;
@@ -333,3 +340,32 @@ span:nth-child(n) {
     transform:scale(1.10);
 	transition: 0.6s;
 }
+
+  button[id^="delete-stock-"] {
+	position: absolute;
+	text-align: right;
+	background-color: rgba(0, 62, 88, 0.612);
+	margin-left: 0px;
+	border-color: #22272f00;
+	margin-left: 7px;
+	border-radius: 9px;
+	color: #00a2cab1;
+	
+  }
+
+  button[id^="delete-stock-"]:hover {
+	color: rgb(255, 123, 123);
+	transition: 2.9;
+  }
+
+  #aboutStock-title {
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	margin-top: 20px;
+  }
+
+  #stock-info {
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+  }
+

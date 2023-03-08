@@ -47,7 +47,7 @@
           "date": "May 2018",
           "sharePrice": "$119",
           "sharesOwned": "1,100",
-          "amountInvested": "130,900",
+          "amountInvested": "$130,900",
           "stockImage": "https://live.staticflickr.com/65535/52733576504_1e25a0565c_z.jpg"
         }
       ],
@@ -649,5 +649,6 @@
       "party": "Democrat"
     }
   ],
+
   "watchlist": []
 }
