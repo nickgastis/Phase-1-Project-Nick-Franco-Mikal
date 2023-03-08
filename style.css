@@ -21,13 +21,12 @@ h2, li, h1, p, label, h3 {
 }
 
 
-
-
 .title {
 	text-align: left;
 	padding-left: 65px;
 	margin-top: 20px;
 	font-size: 60px;
+	background-color: #0e172474;
 }
 
 	.poliTitle {
@@ -252,6 +251,7 @@ span:nth-child(n) {
 	width: 600px;
 	margin: auto;
 	border-radius: 15px;
+	box-shadow:  rgba(124, 196, 243, 0.632);
    }
   
 	
@@ -290,3 +290,46 @@ span:nth-child(n) {
   #watchlist-button:hover {
 	background-color: #077fb3a7;
   }
+
+  #filter-button1{
+	background-color:#0073ff79;
+	display: inline-block;
+	height: 60px;
+	width: 260px;
+	margin-left: 460px;
+	margin-top: 20px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	transition: backround-color ;
+	outline: #fcfeff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 29px;
+	box-shadow: 3px 3px 2px 2px rgb(0, 22, 29);
+}
+#filter-button2{
+	background-color:#ff0c5d7d;
+	display: inline-block;
+	height: 60px;
+	width: 260px;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	box-shadow: #0000005f;
+	transition: backround-color ;
+	outline: #fcfeff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 29px;
+	align-items:center;
+	box-shadow: 3px 3px 2px 2px rgb(0, 22, 29);
+}
+#filter-button2:hover{
+    transform:scale(1.10);
+	transition: 0.6s;
+}
+#filter-button1:hover{
+    transform:scale(1.10);
+	transition: 0.6s;
+}
