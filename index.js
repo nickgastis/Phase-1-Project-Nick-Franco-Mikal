@@ -18,7 +18,7 @@ function fetchStocks() {
 
 
 
-
+// Creates span of senators
 
 function addSenators(senator){
     const politicianImages = document.querySelector(".politician-images");
@@ -39,6 +39,8 @@ function addSenators(senator){
     politicianImages.append(politicianSpan);
 }
 
+// Targets senator id when clicked
+
 function handleImageclick(e) {
     fetch(`http://localhost:3000/senators/${e.target.dataset.id}`)
     .then(res => res.json())
@@ -48,7 +50,7 @@ function handleImageclick(e) {
 
 
 
-
+// creates Politician conatiner
 
 function addDetailContainer(politician) {
     const appendContainer = document.querySelector('.append-container')
@@ -75,7 +77,7 @@ function addDetailContainer(politician) {
     for (let i = 0; i < politician.stocks.length; i++) {
         const stockListItem = document.createElement('li');
         stockListItem.dataset.id = `${politician.id}-${i}`;
-        stockListItem.textContent = `${politician.stocks[i].name} : ${politician.stocks[i].symbol}`;
+        stockListItem.textContent = `${politician.stocks[i].name} : ${politician.stocks[i].symbol} | Shares Owned: ${politician.stocks[i].sharesOwned} | Invested: ${politician.stocks[i].amountInvested}`;
         stockList.appendChild(stockListItem);
       
         stockListItem.addEventListener('click', (e) => {
@@ -100,7 +102,7 @@ function addDetailContainer(politician) {
 
 
 
-
+    // Creates the specific stock container
 
 function addStockContainer(stock) {
         const stockDetail = document.querySelector('.stock-details')
@@ -112,37 +114,17 @@ function addStockContainer(stock) {
         stockName = document.createElement('h1')
         stockName.innerText = `${stock.name} : ${stock.symbol}`
         stockName.id = 'stock-title'
+        
+        const aboutStockTitle = document.createElement('h2')
+        aboutStockTitle.innerText = 'About'
+        aboutStockTitle.id = 'aboutStock-title'
 
-        
-        const sharesOwned = document.createElement('h2')
-        sharesOwned.innerText = `Shares Owned: ${stock.sharesOwned}`
-        sharesOwned.id = 'shares-owned'
-        
-        const amountInvested = document.createElement('h2')
-        amountInvested.innerText = `Amount Invested ${stock.amountInvested}`
-        amountInvested.id = 'amount-invested'
-        
+        const stockInfo = document.createElement('p')
+        stockInfo.innerText = stock.info
+        stockInfo.id = 'stock-info'
         
         const iFRameDiv = document.createElement('div')
         iFRameDiv.id = 'iFrame-div'
-
-        // const sharePrice = document.createElement('h2')
-        // sharePrice.innerText = `Share Price: ${stock.sharePrice}`
-        // sharePrice.id = 'share-price'
-        
-        // let iGraph = document.createElement('iframe')
-        // iGraph.src = 'https://www.finder.com/how-to-buy-apple-stock?futm_medium=cpc&futm_source=google&futm_campaign=17230247220~135291578863&futm_term=buy%20apple%20shares~e~g~kwd-297684248596&futm_content=~~CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE&gclid=CjwKCAiA3pugBhAwEiwAWFzwdajj2nrF9eEWSVomZ6H7labDYpAaccnrKvyPEtgS8KbSiRpBJq8GqhoClrIQAvD_BwE#sc-gzVnrw-dNwjH'
-        // iGraph.id = 'iGraph'
-        // iGraph.setAttribute('scrolling', 'no');
-
-        // iGraph.addEventListener('load', function() {
-        //     iGraph.contentWindow.scrollTo(0, 10000);
-        //   });
-          
-
-        // iGraph.addEventListener('load', function() {
-        //     iGraph.contentWindow.scrollTo(0, 500);
-        // })
 
         const graphImg = document.createElement('img')
         graphImg.src = stock.stockImage
@@ -156,7 +138,7 @@ function addStockContainer(stock) {
 
 
         iFRameDiv.append(graphImg)
-        stockDetailSquare.append(stockName, iFRameDiv, watchlistButton, sharesOwned, amountInvested)
+        stockDetailSquare.append(stockName, iFRameDiv, watchlistButton, aboutStockTitle, stockInfo)
         stockDetail.append(stockDetailSquare)
         
     }
@@ -164,28 +146,26 @@ function addStockContainer(stock) {
 
 
 
-
+    // Adds a stock to the watchlist
     
     function handleWatchlistSubmit(e) {
         e.preventDefault()
         const watchlistUl = document.getElementById('watchlist-ul');
         const stockName = document.getElementById('stock-title').textContent;
         
-        
+        // Stops user from adding the same stock twice
         const existingItem = Array.from(watchlistUl.children).find(item => item.textContent === stockName);
         if (existingItem) {
             return;
         }
-        
+
         const watchlistItem = document.createElement('li');
         watchlistItem.textContent = stockName;
 
         //add delete button on click
-        
        
-        watchlistUl.append(watchlistItem);
         
-        const watchlistName = document.getElementById('stock-title').value
+          watchlistUl.append(watchlistItem);
         
         const newWatchlistObj = { name: stockName };
         
@@ -203,7 +183,7 @@ function addStockContainer(stock) {
 
 
 
-
+    // Loads the stocks in the db.json watchlist
     
     function populateWatchlist() {
         const watchlistUl = document.getElementById('watchlist-ul');
@@ -226,6 +206,8 @@ function addStockContainer(stock) {
             });
         })
       }
+
+      // Removes stock from watchlist
       
       function handleDeleteStockClick(e) {
           e.stopPropagation()
