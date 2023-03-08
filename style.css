@@ -303,7 +303,7 @@ span:nth-child(n) {
 	display: inline-block;
 	height: 60px;
 	width: 260px;
-	margin-left: 460px;
+	margin:auto;
 	margin-top: 20px;
 	color: #fff;
 	border-radius: 4px;
