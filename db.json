@@ -709,6 +709,18 @@
       "party": "Democrat"
     }
   ],
-
-  "watchlist": []
+  "watchlist": [
+    {
+      "name": "Alphabet Inc. : GOOGL",
+      "id": 3
+    },
+    {
+      "name": "McDonald/'s Corporation : MCD",
+      "id": 4
+    },
+    {
+      "name": "Cisco Systems, Inc. : CSCO",
+      "id": 5
+    }
+  ]
 }

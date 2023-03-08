@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function fetchStocks() {
-    fetch("http://localhost:3000/senators/?_limit=6")
+    fetch("http://localhost:3000/senators/")
     .then(res => res.json())
     .then(data => {
         data.forEach(senator => {
@@ -64,7 +64,8 @@ function addDetailContainer(politician) {
   
     const name = document.createElement('h2')
     name.innerText = politician.name
-  
+   
+    
     const party = document.createElement('h3')
     party.innerText = `Party: ${politician.party}`
   
@@ -73,6 +74,8 @@ function addDetailContainer(politician) {
   
     const stockList = document.createElement('ul')
     stockList.className = 'stockUl'
+
+
     
     for (let i = 0; i < politician.stocks.length; i++) {
         const stockListItem = document.createElement('li');
@@ -89,14 +92,21 @@ function addDetailContainer(politician) {
               const clickedStock = data.stocks.find(stock => stockId === data.stocks.indexOf(stock));
               addStockContainer(clickedStock);
 
-              window.scrollTo(0,document.body.scrollHeight);
+              
             });
         });
     }
      
     detailContainer.append(featureImg, name, party, stocksSpan, stockList)  
     appendContainer.append(detailContainer)
-}
+
+    setTimeout(() => {
+        window.scrollTo({
+            top: 950,
+            behavior: 'smooth'
+          });
+        }, 100);
+    }
 
 
 
@@ -114,6 +124,7 @@ function addStockContainer(stock) {
         stockName = document.createElement('h1')
         stockName.innerText = `${stock.name} : ${stock.symbol}`
         stockName.id = 'stock-title'
+
         
         const aboutStockTitle = document.createElement('h2')
         aboutStockTitle.innerText = 'About'
@@ -131,7 +142,7 @@ function addStockContainer(stock) {
         graphImg.id = 'graph-img'
 
         const watchlistButton = document.createElement('button')
-        watchlistButton.innerText = 'Add To watchlist'
+        watchlistButton.innerText = 'Add to Watchlist'
         watchlistButton.id = 'watchlist-button'
 
         watchlistButton.addEventListener('click', handleWatchlistSubmit)
@@ -141,8 +152,14 @@ function addStockContainer(stock) {
         stockDetailSquare.append(stockName, iFRameDiv, watchlistButton, aboutStockTitle, stockInfo)
         stockDetail.append(stockDetailSquare)
         
-    }
-
+        setTimeout(() => {
+            window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: 'smooth'
+            });
+          }, 100);
+        }
+    
 
 
 
@@ -152,6 +169,8 @@ function addStockContainer(stock) {
         e.preventDefault()
         const watchlistUl = document.getElementById('watchlist-ul');
         const stockName = document.getElementById('stock-title').textContent;
+        
+        
         
         // Stops user from adding the same stock twice
         const existingItem = Array.from(watchlistUl.children).find(item => item.textContent === stockName);
@@ -163,7 +182,6 @@ function addStockContainer(stock) {
         watchlistItem.textContent = stockName;
 
         //add delete button on click
-       
         
           watchlistUl.append(watchlistItem);
         
@@ -182,22 +200,26 @@ function addStockContainer(stock) {
     }
 
 
+    
 
     // Loads the stocks in the db.json watchlist
     
     function populateWatchlist() {
         const watchlistUl = document.getElementById('watchlist-ul');
-      
+        
         fetch('http://localhost:3000/watchlist')
         .then(response => response.json())
         .then(data => {
             data.forEach(stock => {
                 const watchlistItem = document.createElement('li');
                 watchlistItem.textContent = stock.name;
-      
+                
+                
                 const deleteStock = document.createElement('button')
                 deleteStock.id = `delete-stock-${stock.id}` 
                 deleteStock.innerText = 'X'
+                
+                
       
                 deleteStock.addEventListener('click', handleDeleteStockClick)
       
@@ -206,6 +228,8 @@ function addStockContainer(stock) {
             });
         })
       }
+
+
 
       // Removes stock from watchlist
       
@@ -218,13 +242,3 @@ function addStockContainer(stock) {
           })
           .then(() => e.target.parentElement.remove())
       }
-      
-    
-    
-    
-    
-    
-    
-    
-      
-    
