@@ -124,6 +124,7 @@ function addStockContainer(stock) {
         stockName = document.createElement('h1')
         stockName.innerText = `${stock.name} : ${stock.symbol}`
         stockName.id = 'stock-title'
+
         
         const aboutStockTitle = document.createElement('h2')
         aboutStockTitle.innerText = 'About'
@@ -141,7 +142,7 @@ function addStockContainer(stock) {
         graphImg.id = 'graph-img'
 
         const watchlistButton = document.createElement('button')
-        watchlistButton.innerText = 'Add To watchlist'
+        watchlistButton.innerText = 'Add to Watchlist'
         watchlistButton.id = 'watchlist-button'
 
         watchlistButton.addEventListener('click', handleWatchlistSubmit)
@@ -169,6 +170,8 @@ function addStockContainer(stock) {
         const watchlistUl = document.getElementById('watchlist-ul');
         const stockName = document.getElementById('stock-title').textContent;
         
+        
+        
         // Stops user from adding the same stock twice
         const existingItem = Array.from(watchlistUl.children).find(item => item.textContent === stockName);
         if (existingItem) {
@@ -179,7 +182,6 @@ function addStockContainer(stock) {
         watchlistItem.textContent = stockName;
 
         //add delete button on click
-       
         
           watchlistUl.append(watchlistItem);
         
@@ -198,23 +200,25 @@ function addStockContainer(stock) {
     }
 
 
+    
 
     // Loads the stocks in the db.json watchlist
     
     function populateWatchlist() {
         const watchlistUl = document.getElementById('watchlist-ul');
-      
+        
         fetch('http://localhost:3000/watchlist')
         .then(response => response.json())
         .then(data => {
             data.forEach(stock => {
                 const watchlistItem = document.createElement('li');
                 watchlistItem.textContent = stock.name;
-      
+                
+                
                 const deleteStock = document.createElement('button')
                 deleteStock.id = `delete-stock-${stock.id}` 
                 deleteStock.innerText = 'X'
-
+                
                 
       
                 deleteStock.addEventListener('click', handleDeleteStockClick)
@@ -238,13 +242,3 @@ function addStockContainer(stock) {
           })
           .then(() => e.target.parentElement.remove())
       }
-      
-    
-    
-    
-    
-    
-    
-    
-      
-    
