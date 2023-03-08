@@ -649,14 +649,6 @@
       "party": "Democrat"
     }
   ],
-  "watchlist": [
-    {
-      "name": "Bank of America Corporation : BAC",
-      "id": 3
-    },
-    {
-      "name": "The Proctor & Gamble Company : PG",
-      "id": 4
-    }
-  ]
+
+  "watchlist": []
 }
