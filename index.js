@@ -102,7 +102,7 @@ function addDetailContainer(politician) {
 
     setTimeout(() => {
         window.scrollTo({
-            top: 950,
+            top: 1120,
             behavior: 'smooth'
           });
         }, 100);
@@ -167,6 +167,8 @@ function addStockContainer(stock) {
     
     function handleWatchlistSubmit(e) {
         e.preventDefault()
+
+
         const watchlistUl = document.getElementById('watchlist-ul');
         const stockName = document.getElementById('stock-title').textContent;
         
@@ -180,8 +182,17 @@ function addStockContainer(stock) {
 
         const watchlistItem = document.createElement('li');
         watchlistItem.textContent = stockName;
+        
+        watchlistItem.addEventListener('click', handleWatchlistItemClick)
+
+
 
         //add delete button on click
+        
+
+
+
+
         
           watchlistUl.append(watchlistItem);
         
@@ -197,7 +208,12 @@ function addStockContainer(stock) {
         .then(response => response.json())
         .then(data => handleWatchlistSubmit(e, data))
         .catch(error => console.error(error));
+       
+        function handleWatchlistItemClick(e){
+            console.log('click')
+        }
     }
+    
 
 
     
@@ -213,6 +229,7 @@ function addStockContainer(stock) {
             data.forEach(stock => {
                 const watchlistItem = document.createElement('li');
                 watchlistItem.textContent = stock.name;
+                watchlistItem.dataset.id = stock.id
                 
                 
                 const deleteStock = document.createElement('button')
