@@ -20,24 +20,77 @@ function fetchStocks() {
 
 // Creates span of senators
 
-function addSenators(senator){
+function addSenators(senator) {
     const politicianImages = document.querySelector(".politician-images");
-    const politicianSpan = document.createElement('span');
-
-    politicianSpan.dataset.id = senator.id
-    
-    const names = document.createElement('h2');
+    const politicianSpan = document.createElement("span");
+  
+    politicianSpan.dataset.id = senator.id;
+    politicianSpan.dataset.party = senator.party;
+  
+    const names = document.createElement("h2");
     names.innerText = senator.name;
     const images = document.createElement("img");
     images.src = senator.image;
-
-    images.dataset.id = senator.id
-
-    images.addEventListener('click', handleImageclick)
-
+  
+    images.dataset.id = senator.id;
+  
+    images.addEventListener("click", handleImageclick);
+  
     politicianSpan.append(images, names);
     politicianImages.append(politicianSpan);
-}
+
+   //Filter Buttons
+    
+    const filterButtonAll = document.querySelector("#filter-buttonAll");
+    filterButtonAll.addEventListener("click", () => {
+      handleFilterAll();
+    });
+  
+    function handleFilterAll() {
+      const spans = document.querySelectorAll(".politician-images span");
+      spans.forEach((span) => {
+        span.style.display = "block";
+      });
+    }
+  }
+  
+   const filterbutton2 = document.querySelector("#filter-button2");
+    filterbutton2.addEventListener("click", () => {
+      handleFilter2('Republicans');
+    });
+    
+    function handleFilter2(filterValue2) {
+        const spans = document.querySelectorAll(".politician-images span");
+        const filterButton2 = document.querySelector("#filter-button2");
+        spans.forEach((span) => {
+          if (span.dataset.party === "Republican") {
+            span.style.display = "block";
+          } else {
+            span.style.display = "none";
+          }
+        });
+      }
+      
+               const filterbutton = document.querySelector("#filter-button1");
+      filterbutton.addEventListener("click", () => {
+        handleFilter("Democrat");
+      });
+    
+    function handleFilter(filterValue) {
+        const spans = document.querySelectorAll(".politician-images span");
+        const filterButton = document.querySelector("#filter-button1");
+        spans.forEach((span) => {
+          if (span.dataset.party === "Democrat") {
+            span.style.display = "block";
+          } else {
+            span.style.display = "none";
+          }
+        });    
+      }
+    
+      
+  
+  
 
 // Targets senator id when clicked
 
@@ -55,17 +108,17 @@ function handleImageclick(e) {
 function addDetailContainer(politician) {
     const appendContainer = document.querySelector('.append-container')
     appendContainer.innerText = ''
-    
+  
     const detailContainer = document.createElement('div')
     detailContainer.classList.add('detail-container');
-    
+  
     const featureImg = document.createElement('img')
     featureImg.src = politician.image
   
     const name = document.createElement('h2')
     name.innerText = politician.name
-   
-    
+  
+  
     const party = document.createElement('h3')
     party.innerText = `Party: ${politician.party}`
   
@@ -74,39 +127,32 @@ function addDetailContainer(politician) {
   
     const stockList = document.createElement('ul')
     stockList.className = 'stockUl'
-
-
-    
+  
     for (let i = 0; i < politician.stocks.length; i++) {
         const stockListItem = document.createElement('li');
         stockListItem.dataset.id = `${politician.id}-${i}`;
         stockListItem.textContent = `${politician.stocks[i].name} : ${politician.stocks[i].symbol} | Shares Owned: ${politician.stocks[i].sharesOwned} | Invested: ${politician.stocks[i].amountInvested}`;
         stockList.appendChild(stockListItem);
-      
-        stockListItem.addEventListener('click', (e) => {
-            
-          fetch(`http://localhost:3000/senators/${politician.id}`)
-            .then(resp => resp.json())
-            .then(data => {
-              const stockId = parseInt(e.target.dataset.id.split('-')[1]);
-              const clickedStock = data.stocks.find(stock => stockId === data.stocks.indexOf(stock));
-              addStockContainer(clickedStock);
-
-              
-            });
-        });
     }
-     
-    detailContainer.append(featureImg, name, party, stocksSpan, stockList)  
+    
+    stockList.addEventListener('click', (e) => {
+        const stockId = parseInt(e.target.dataset.id.split('-')[1]);
+        const clickedStock = politician.stocks.find(stock => stockId === politician.stocks.indexOf(stock));
+        addStockContainer(clickedStock);
+    });
+    
+    
+   detailContainer.append(featureImg, name, party, stocksSpan, stockList)
     appendContainer.append(detailContainer)
-
+  
     setTimeout(() => {
-        window.scrollTo({
-            top: 950,
-            behavior: 'smooth'
-          });
-        }, 100);
-    }
+      window.scrollTo({
+        top: 1120,
+        behavior: 'smooth'
+      });
+    }, 100);
+  }
+  
 
 
 
@@ -167,6 +213,8 @@ function addStockContainer(stock) {
     
     function handleWatchlistSubmit(e) {
         e.preventDefault()
+
+
         const watchlistUl = document.getElementById('watchlist-ul');
         const stockName = document.getElementById('stock-title').textContent;
         
@@ -180,10 +228,19 @@ function addStockContainer(stock) {
 
         const watchlistItem = document.createElement('li');
         watchlistItem.textContent = stockName;
+        
+        watchlistItem.addEventListener('click', handleWatchlistItemClick)
+
+
 
         //add delete button on click
-        
-          watchlistUl.append(watchlistItem);
+
+        const deleteButton = document.createElement('button')
+        deleteButton.innerText = 'X'
+         watchlistItem.append(deleteButton)
+
+
+        watchlistUl.append(watchlistItem);
         
         const newWatchlistObj = { name: stockName };
         
@@ -197,7 +254,12 @@ function addStockContainer(stock) {
         .then(response => response.json())
         .then(data => handleWatchlistSubmit(e, data))
         .catch(error => console.error(error));
+       
+        function handleWatchlistItemClick(e){
+            console.log('click')
+        }
     }
+    
 
 
     
@@ -213,6 +275,7 @@ function addStockContainer(stock) {
             data.forEach(stock => {
                 const watchlistItem = document.createElement('li');
                 watchlistItem.textContent = stock.name;
+                watchlistItem.dataset.id = stock.id
                 
                 
                 const deleteStock = document.createElement('button')
