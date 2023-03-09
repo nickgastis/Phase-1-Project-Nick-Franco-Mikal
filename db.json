@@ -709,14 +709,5 @@
       "party": "Democrat"
     }
   ],
-  "watchlist": [
-    {
-      "name": "Apple Inc. : AAPL",
-      "id": 1
-    },
-    {
-      "name": "Oracle Corporation : ORCL",
-      "id": 3
-    }
-  ]
+  "watchlist": []
 }
