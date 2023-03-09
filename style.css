@@ -53,14 +53,14 @@ h2, li, h1, p, label, h3 {
 
 .watchlist {
 	 position: relative;
-	bottom: -500%;
+	bottom: -100vw;
 	animation: slide-up 1.5s forwards; 
 	flex: 3;
 	width: 280px;
 	margin-left: 6px;
 	margin-top: 21px;
 	position: fixed;
-	height: 2000px;
+	height: 100vw;
 	background-color: #0e172474;
 	border: 1px solid rgb(22, 22, 22);
 	transition: 0.9s;
@@ -416,6 +416,22 @@ span:nth-child(n) {
 	border-radius: 9px;
 	color: #00a2cab1;
 	
+  }
+
+  button[id^="delete-stock-"]{
+	position: absolute;
+	text-align: right;
+	background-color: rgba(0, 62, 88, 0.612);
+	margin-left: 0px;
+	border-color: #22272f00;
+	margin-left: 7px;
+	border-radius: 9px;
+	color: #00a2cab1;
+  }
+
+  button[id^="delete-stock-"]:hover{
+	color: rgb(255, 123, 123);
+	transition: 2.9;
   }
 
   button[id^="delete-stock-"]:hover {

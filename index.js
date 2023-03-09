@@ -41,6 +41,7 @@ function addSenators(senator) {
 
    //Filter Buttons
     
+   // All
     const filterButtonAll = document.querySelector("#filter-buttonAll");
     filterButtonAll.addEventListener("click", () => {
       handleFilterAll();
@@ -53,8 +54,9 @@ function addSenators(senator) {
       });
     }
   }
-  
-   const filterbutton2 = document.querySelector("#filter-button2");
+
+  // Republicans
+  const filterbutton2 = document.querySelector("#filter-button2");
     filterbutton2.addEventListener("click", () => {
       handleFilter2('Republicans');
     });
@@ -71,7 +73,8 @@ function addSenators(senator) {
         });
       }
       
-               const filterbutton = document.querySelector("#filter-button1");
+    // Democrat
+     const filterbutton = document.querySelector("#filter-button1");
       filterbutton.addEventListener("click", () => {
         handleFilter("Democrat");
       });
@@ -90,8 +93,6 @@ function addSenators(senator) {
     
       
   
-  
-
 // Targets senator id when clicked
 
 function handleImageclick(e) {
@@ -190,7 +191,7 @@ function addStockContainer(stock) {
         const watchlistButton = document.createElement('button')
         watchlistButton.innerText = 'Add to Watchlist'
         watchlistButton.id = 'watchlist-button'
-
+console.log(watchlistButton)
         watchlistButton.addEventListener('click', handleWatchlistSubmit)
 
 
@@ -206,60 +207,78 @@ function addStockContainer(stock) {
           }, 100);
         }
     
+        //delete Stock from db.json
+        function handleDeleteStockClick(e) {
+                  e.stopPropagation()
+                  console.log('hello')
+                  const buttonId = e.target.id;
+                const stockId = buttonId.split('-')[2];
+                  fetch(`http://localhost:3000/watchlist/${stockId}`, {
+                      method: 'DELETE'
+                  })
+                  .then(resp => resp.json())
+                  .then(() => e.target.parentElement.remove())
+            }
 
 
-
-    // Adds a stock to the watchlist
-    
-    function handleWatchlistSubmit(e) {
-        e.preventDefault()
-
-
-        const watchlistUl = document.getElementById('watchlist-ul');
-        const stockName = document.getElementById('stock-title').textContent;
-        
-        
-        
-        // Stops user from adding the same stock twice
-        const existingItem = Array.from(watchlistUl.children).find(item => item.textContent === stockName);
-        if (existingItem) {
-            return;
+            
+            // Adds a stock to the watchlist
+            
+            function handleWatchlistSubmit(e) {
+                e.preventDefault()
+                console.log('hello world')
+                
+            const watchlistUl = document.getElementById('watchlist-ul');
+            const stockName = document.getElementById('stock-title').textContent;
+            
+            
+            
+            // Stops user from adding the same stock twice
+            const existingItem = Array.from(watchlistUl.children).find(item => item.textContent === stockName);
+            if (existingItem) {
+                return;
+            }
+            
+            const watchlistItem = document.createElement('li');
+            watchlistItem.textContent = stockName;
+            
+            watchlistItem.addEventListener('click', handleWatchlistItemClick)
+            
+            
+            
+            //add delete button on click
+            
+            
+            const deleteButton = document.createElement('button')
+            deleteButton.innerText = 'X'
+            deleteButton.id = `delete-stock-${stockName.id}`;
+            
+            
+            watchlistItem.append(deleteButton)
+            deleteButton.addEventListener('click', handleDeleteStockClick)
+            
+            
+            
+            watchlistUl.append(watchlistItem);
+            
+            const newWatchlistObj = { name: stockName };
+            
+            fetch('http://localhost:3000/watchlist', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(newWatchlistObj)
+            })
+            .then(response => response.json())
+            // .then(data => handleWatchlistSubmit(e, data))
+            .catch(error => console.error(error));
+            
+            function handleWatchlistItemClick(e){
+                console.log('click')
+            }
         }
-
-        const watchlistItem = document.createElement('li');
-        watchlistItem.textContent = stockName;
         
-        watchlistItem.addEventListener('click', handleWatchlistItemClick)
-
-
-
-        //add delete button on click
-
-        const deleteButton = document.createElement('button')
-        deleteButton.innerText = 'X'
-         watchlistItem.append(deleteButton)
-
-
-        watchlistUl.append(watchlistItem);
-        
-        const newWatchlistObj = { name: stockName };
-        
-        fetch('http://localhost:3000/watchlist', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(newWatchlistObj)
-        })
-        .then(response => response.json())
-        .then(data => handleWatchlistSubmit(e, data))
-        .catch(error => console.error(error));
-       
-        function handleWatchlistItemClick(e){
-            console.log('click')
-        }
-    }
-    
 
 
     
@@ -296,12 +315,19 @@ function addStockContainer(stock) {
 
       // Removes stock from watchlist
       
-      function handleDeleteStockClick(e) {
-          e.stopPropagation()
-          const buttonId = e.target.id;
-        const stockId = buttonId.split('-')[2];
-          fetch(`http://localhost:3000/watchlist/${stockId}`, {
-              method: 'DELETE'
-          })
-          .then(() => e.target.parentElement.remove())
-      }
+    //   function handleDeleteStockClick(e) {
+    //       e.stopPropagation()
+    //       console.log('hello')
+    //       const buttonId = e.target.id;
+    //     const stockId = buttonId.split('-')[2];
+    //       fetch(`http://localhost:3000/watchlist/${stockId}`, {
+    //           method: 'DELETE'
+    //       })
+    //       .then(() => e.target.parentElement.remove())
+    // }
+
+
+
+
+    
+    
