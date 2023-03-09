@@ -711,16 +711,12 @@
   ],
   "watchlist": [
     {
-      "name": "Oracle Corporation : ORCL",
-      "id": 4
-    },
-    {
-      "name": "JPMorgan Chase & Co. : JPM",
-      "id": 5
-    },
-    {
       "name": "Apple Inc. : AAPL",
-      "id": 6
+      "id": 1
+    },
+    {
+      "name": "Oracle Corporation : ORCL",
+      "id": 3
     }
   ]
 }
