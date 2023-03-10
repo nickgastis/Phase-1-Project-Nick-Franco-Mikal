@@ -53,14 +53,14 @@ h2, li, h1, p, label, h3 {
 
 .watchlist {
 	 position: relative;
-	bottom: -100vw;
+	bottom: -200vw;
 	animation: slide-up 1.5s forwards; 
 	flex: 3;
 	width: 280px;
 	margin-left: 6px;
 	margin-top: 21px;
 	position: fixed;
-	height: 100vw;
+	height: 200%;
 	background-color: #0e172474;
 	border: 1px solid rgb(22, 22, 22);
 	transition: 0.9s;
@@ -452,3 +452,30 @@ span:nth-child(n) {
 	width: 600px;
   }
 
+  #footer-line ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+
+  #footer {
+	float: right;
+  }
+  
+  li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover{
+	background-color: #356b8c71;
+  }
+  
+  .active {
+	background-color: #00a2cab1;
+  }
